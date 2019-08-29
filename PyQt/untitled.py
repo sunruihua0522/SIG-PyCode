@@ -8,7 +8,7 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-from PyQt5.QtWidgets import QMessageBox
+
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -54,9 +54,8 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
         self.pushButton.clicked.connect(MainWindow.close)
-
-        self.actionUpLoad.toggled.connect(self.privateFunc)
-        self.actionUpLoad.setCheckable(True)
+        self.actionCopy.triggered.connect(self.actionCut.trigger)
+        self.actionCut.triggered.connect(MainWindow.close)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
@@ -71,8 +70,3 @@ class Ui_MainWindow(object):
         self.actionPaste.setText(_translate("MainWindow", "Paste"))
         self.actionUpLoad.setText(_translate("MainWindow", "UpLoad"))
         self.actionDownLoad.setText(_translate("MainWindow", "DownLoad"))
-
-    def privateFunc(self,Toggled):
-        text = "Open" if Toggled else "Close"
-        msg=QMessageBox(QMessageBox.Question,'Error',text, QMessageBox.Retry | QMessageBox.Yes,None)
-        msg.exec()
