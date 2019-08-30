@@ -38,3 +38,5 @@ if __name__=='__main__':
 
     T1.MethodA()
     T1.MethodB()
+
+    exit(0)

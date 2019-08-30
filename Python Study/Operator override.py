@@ -19,3 +19,5 @@ if __name__ == '__main__':
     print(PointA + PointB + PointC)
     print(PointA - PointB + PointC)
     print(PointA - PointB*PointC)
+
+    exit(0)

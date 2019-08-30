@@ -12,3 +12,5 @@ if __name__=='__main__':
     c = Child()
     c._ProtectedMethod()  #保护类型只能允许其本身与子类进行访问，不能用于 from module import *
     c.PublicMethod()
+
+    exit()

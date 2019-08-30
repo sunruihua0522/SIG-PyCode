@@ -34,3 +34,4 @@ if __name__=='__main__':
     #P1.PrintCount() #此时就会报错，因为P1对象已经被销毁了
     print(People.PeopleNumber)
 
+    exit()

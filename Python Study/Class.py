@@ -40,3 +40,5 @@ if __name__=='__main__':
         print(P3.Address)
     except:
         print('没有Address这个属性')
+
+    exit(0)
