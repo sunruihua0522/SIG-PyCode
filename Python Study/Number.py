@@ -31,3 +31,7 @@ print(L)
 
 for _ in range(1,10):   #生成随机实数
     print(rd.uniform(1,10))
+
+print(math.trunc(984.6321))
+print(math.ceil(984.361))
+print(math.floor(984.66654))
