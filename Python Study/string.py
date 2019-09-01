@@ -67,6 +67,26 @@ print(originStr.translate(tb))
 #title的用法
 print('hello yoU are Right'.title())
 
+#find找不到的时候返回-1
+print('helloWorld'.find('W'))
+print('helloWorld'.find('x'))
+
+#index找不到的时候会抛出异常
+print('helloWorld'.index('W'))
+try:
+    print('helloWorld'.index('x'))
+except:
+    print('index遇到异常')
+
+#split
+print('AB&CD&EF&HI&JK&MN'.split('&'))
+print('AB&CD&EF&HI&JK&MN'.split('&',3))
+
+#zfill
+print('ABC'.zfill(10))
+
+
+
 exit()
 
 
