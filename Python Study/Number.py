@@ -29,3 +29,5 @@ L=list(range(1,10))
 rd.shuffle(L)               #随机排序
 print(L)
 
+for _ in range(1,10):   #生成随机实数
+    print(rd.uniform(1,10))
