@@ -2,7 +2,6 @@ import math
 import random as rd
 import cmath    #复数
 
-
 a=int('FA30',base=16)
 print(a)
 
