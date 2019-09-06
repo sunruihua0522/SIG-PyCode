@@ -47,5 +47,4 @@ regstr ='sig[A-Z]+'
 cmp = re.compile(regstr)
 print(cmp.split('Anj965sigH8sigOKLopiojisigPlkj'))
 
-
 exit()
