@@ -1,5 +1,5 @@
-from IMotion import *
-class MotionA(MotionBase):
+from IMotion import*
+class MotionA(IMotion):
     def __init__(self,name,age=0,color='red'):
         super(MotionA, self).__init__(name)
         self.Age=age

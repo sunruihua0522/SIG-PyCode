@@ -1,6 +1,6 @@
 from IMotion import *
 
-class MotionB(MotionBase):
+class MotionB(IMotion):
     def Run(self):
         print('MotionB Run')
     def GetInfo(self):

@@ -19,7 +19,7 @@ motion = obj_class_name(className)
 def Run(motion):
     motion.Run()
     motion.GetInfo()
-    motion.GetOil('Qinghai','Henan','HuBei','WuHan')
+    motion.GetOil('Qinghai','Henan','HuBei','WuHan','ShenZhen')
 
 if __name__=='__main__':
     Run(motion)
