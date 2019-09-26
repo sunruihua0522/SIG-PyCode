@@ -1,4 +1,5 @@
 from selenium import webdriver
+
 import time
 brower = webdriver.Chrome()
 url_1 = 'http://hress.sig.dom/hress/login.php'
@@ -10,5 +11,6 @@ brower.find_element_by_name('login').click()
 
 #enter
 brower.find_element_by_name('submit').click()
+time.sleep(5)
 print(brower.page_source)
 
