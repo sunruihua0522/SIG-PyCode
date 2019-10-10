@@ -4,9 +4,9 @@ sess = requests.Session()
 
 urlPost = 'http://hress.sig.dom/hress/login.php'
 
-url2='http://172.19.10.61:8888/ihrplus_ess/cb_hrms/includes/home_ui.js?_dc=Thu%20Sep%2026%202019%2013:49:53%20GMT+0800%20(China%20Standard%20Time)'
+url2='http://172.19.10.61:8888/ihrplus_ess/cb_hrms/views/dynamicGenerateScript/page_ess_epersonal.js?_dc=Thu%20Sep%2026%202019%2017:14:36%20GMT+0800%20(China%20Standard%20Time)'
 
-url3='http://172.19.10.61:8888/ihrplus_ess/cb_hrms/index.cfm?event=dynamicGenerateScript.dynamicGenerateScript.dynamicGetAdvFormData&_dc=Thu%20Sep%2026%202019%2016:20:38%20GMT+0800%20(China%20Standard%20Time)'
+url3='http://172.19.10.61:8888/ihrplus_ess/cb_hrms/index.cfm?event=dynamicGenerateScript.dynamicGenerateScript.dynamicGetAdvFormData&_dc=Thu%20Sep%2026%202019%2017:14:36%20GMT+0800%20(China%20Standard%20Time)'
 
 
 dataPost = {
@@ -24,19 +24,22 @@ headerPost = {
 'Content-Length': '41',
 'Content-Type': 'application/x-www-form-urlencoded',
 'Host': 'hress.sig.dom',
+'Cookie': 'PHPSESSID=jk2dur8uacrdfam1fud2rbtbp3',
 'Origin': 'http://hress.sig.dom',
 'Referer': 'http://hress.sig.dom/hress/login.php',
 'Upgrade-Insecure-Requests': '1',
 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
 }
 response = sess.post(url=urlPost,data=dataPost,headers=headerPost)
+if(response.status_code==200):
+    print(response.cookies)
 
-#get 2
-'''
-r2 = sess.get(url2)
-print(r2.status_code)
-#print(r2.text)
-'''
+#get2
+headerPost2 ={
+'Referer':'http://172.19.10.61:8888/ihrplus_ess/cb_hrms/index.cfm?event=hrms.dspHome',
+'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36'
+}
+sess.get(url2,headers=headerPost2)
 
 
 #post3
