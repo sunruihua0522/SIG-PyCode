@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="178c578c-f32f-425a-bf25-634f16ad8bf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python Study/os/CreateProjectFolder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyQt/New project dir/CreateProjectFolder.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,16 +31,16 @@
         <entry file="file://$PROJECT_DIR$/Python Study/Django/HelloWorld.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="25">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python Study/os/CreateProjectFolder.py">
+        <entry file="file://$PROJECT_DIR$/PyQt/New project dir/newpro.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            <state relative-caret-position="425">
+              <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -166,8 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PyQt/1.1.py" />
-        <option value="$PROJECT_DIR$/PyQt/1.2.py" />
         <option value="$PROJECT_DIR$/PyQt/untitled.py" />
         <option value="$PROJECT_DIR$/PyQt/Calc/Calculator.py" />
         <option value="$PROJECT_DIR$/PyQt/Calc/Calc.py" />
@@ -217,12 +215,14 @@
         <option value="$PROJECT_DIR$/Python Study/MySql/Connect.py" />
         <option value="$PROJECT_DIR$/Python Study/Django/HelloWorld.py" />
         <option value="$PROJECT_DIR$/Python Study/os/CreateProjectFolder.py" />
+        <option value="$PROJECT_DIR$/PyQt/New project dir/CreateProjectFolder.py" />
+        <option value="$PROJECT_DIR$/PyQt/New project dir/newpro.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="501" />
+    <option name="y" value="80" />
     <option name="width" value="346" />
     <option name="height" value="675" />
   </component>
@@ -234,7 +234,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,13 +244,24 @@
             <path>
               <item name="PyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="PyCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Python Study" type="462c0819:PsiDirectoryNode" />
+              <item name="PyQt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="PyQt" type="462c0819:PsiDirectoryNode" />
+              <item name="Calc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="PyQt" type="462c0819:PsiDirectoryNode" />
+              <item name="New project dir" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="PyCode" type="462c0819:PsiDirectoryNode" />
               <item name="Python Study" type="462c0819:PsiDirectoryNode" />
-              <item name="os" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PyCode" type="b2602c69:ProjectViewProjectNode" />
@@ -266,6 +276,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -276,14 +287,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\PyCode\Python Study\pyautogui" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\PyCode\PyQt\New project dir" />
       <recent name="D:\Code\PyCode\Python Study\Reptile\Login Hress" />
       <recent name="D:\Code\PyCode\Python Study\Reptile\Get course in tencent website" />
       <recent name="D:\Code\PyCode\Python Study" />
       <recent name="D:\Code\PyCode\Python Study\os" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\PyCode\Python Study\pyautogui" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -325,6 +337,9 @@
       <module name="PyCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Study/MySql" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -344,6 +359,9 @@
       <module name="PyCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQt/New project dir" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -385,6 +403,9 @@
       <module name="PyCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Study/os" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -497,7 +518,8 @@
       <workItem from="1570756402001" duration="1028000" />
       <workItem from="1571030195185" duration="292000" />
       <workItem from="1571269909914" duration="587000" />
-      <workItem from="1571271281365" duration="5256000" />
+      <workItem from="1571271281365" duration="5610000" />
+      <workItem from="1571281358774" duration="5243000" />
     </task>
     <task id="LOCAL-00001" summary="测试了math库的一些函数">
       <created>1567298668480</created>
@@ -618,11 +640,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571030393677</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="自动创建项目文件夹">
+      <created>1571280056892</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1571280056892</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153860000" />
+    <option name="totallyTimeSpent" value="159457000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -634,10 +663,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1622" height="935" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15685019" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13219616" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -648,17 +676,17 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917705" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49551857" weight="0.32793018" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49487835" weight="0.32793018" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.38604355" side_tool="true" visible="true" weight="0.4875312" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.61395645" visible="true" weight="0.4875312" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8809219" weight="0.23940149" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3880597" side_tool="true" visible="true" weight="0.049837485" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.6119403" visible="true" weight="0.049837485" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8802817" weight="0.23940149" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32975152" />
       <window_info anchor="right" id="Database" order="4" weight="0.32975152" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" side_tool="true" visible="true" weight="0.046734955" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" side_tool="true" visible="true" weight="0.11727079" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -691,7 +719,8 @@
     <MESSAGE value="动态抓取js或者ajax动态生成的数据，还没有在hrss中成功" />
     <MESSAGE value="测试了连接SQL数据库，成功连接" />
     <MESSAGE value="安装Django" />
-    <option name="LAST_COMMIT_MESSAGE" value="安装Django" />
+    <MESSAGE value="自动创建项目文件夹" />
+    <option name="LAST_COMMIT_MESSAGE" value="自动创建项目文件夹" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PyCode$1_1__1_.coverage" NAME="1.1 (1) Coverage Results" MODIFIED="1566913663896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt" />
@@ -702,13 +731,6 @@
     <SUITE FILE_PATH="coverage/PyCode$1_2.coverage" NAME="1.2 Coverage Results" MODIFIED="1566981756147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1229051315/PyQt5/QtWidgets/QMainWindow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="371" column="8" selection-start-line="371" selection-start-column="8" selection-end-line="371" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python Study/Operator override.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -994,6 +1016,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Python Study/os/Some function of os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python Study/Reptile/selenium/Test1/test1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1049,24 +1078,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PyQt/New project dir/CreateProjectFolder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python Study/Django/HelloWorld.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python Study/os/Some function of os.py">
+    <entry file="file://$PROJECT_DIR$/PyQt/New project dir/newpro.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python Study/os/CreateProjectFolder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        <state relative-caret-position="425">
+          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
