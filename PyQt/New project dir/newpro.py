@@ -13,7 +13,7 @@ def makedir():
     length = len(sys.argv)
     now = datetime.datetime.now().date()
     if(length>1):
-        currentPath = '%s %d_%d_%d'%(sys.argv[1],now.year,now.day,now.day)
+        currentPath = '%s %d_%d_%d'%(sys.argv[1],now.year,now.month,now.day)
         if (not os.path.exists(currentPath)):
             os.makedirs('%s/Reimburse' % (currentPath))
             os.makedirs('%s/Report' % (currentPath))
