@@ -86,6 +86,8 @@ print('AB&CD&EF&HI&JK&MN'.split('&',3))
 print('ABC'.zfill(10))
 
 
+#reverse
+print('ABCD'[::-1][0:2])
 
 exit()
 

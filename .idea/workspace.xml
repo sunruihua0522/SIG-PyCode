@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="178c578c-f32f-425a-bf25-634f16ad8bf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python Study/AutoConnectTVNC/ConnectTVNC.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Study/AutoConnectTVNC/tvncDB.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Study/AutoConnectTVNC/tvnc_icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyQt/New project dir/newpro.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyQt/New project dir/newpro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Study/AutoConnectTVNC/ConnectTVNC.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Study/AutoConnectTVNC/ConnectTVNC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Study/string.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Study/string.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,23 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python Study/MySql/Connect.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python Study/AutoConnectTVNC/ConnectTVNC.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -55,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/Python Study/pyautogui/FindPng.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
-              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -64,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/Python Study/Excel/ExcelRead.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
-              <caret line="5" column="40" lean-forward="true" selection-start-line="3" selection-end-line="5" selection-end-column="40" />
+              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -111,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python Study/string.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1300">
-              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+            <state relative-caret-position="2225">
+              <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -169,7 +155,6 @@
         <option value="$PROJECT_DIR$/PyQt/UI Logic separate/Map.py" />
         <option value="$PROJECT_DIR$/PyQt/UI Logic separate/gui.py" />
         <option value="$PROJECT_DIR$/PyQt/UI Logic separate/Logic.py" />
-        <option value="$PROJECT_DIR$/Python Study/string.py" />
         <option value="$PROJECT_DIR$/Python Study/pipWrite.py" />
         <option value="$PROJECT_DIR$/Python Study/os/pipRead.py" />
         <option value="$PROJECT_DIR$/Python Study/os/pipWrite.py" />
@@ -207,15 +192,16 @@
         <option value="$PROJECT_DIR$/Python Study/os/CreateProjectFolder.py" />
         <option value="$PROJECT_DIR$/PyQt/New project dir/CreateProjectFolder.py" />
         <option value="$PROJECT_DIR$/PyQt/New project dir/newpro.py" />
+        <option value="$PROJECT_DIR$/Python Study/string.py" />
         <option value="$PROJECT_DIR$/Python Study/AutoConnectTVNC/ConnectTVNC.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="1" />
-    <option name="width" value="974" />
-    <option name="height" value="664" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1036" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -225,7 +211,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,12 +233,6 @@
               <item name="PyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="PyCode" type="462c0819:PsiDirectoryNode" />
               <item name="Python Study" type="462c0819:PsiDirectoryNode" />
-              <item name="Excel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PyCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PyCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Python Study" type="462c0819:PsiDirectoryNode" />
               <item name="pyautogui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -269,6 +248,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,32 +284,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.ConnectTVNC">
-    <configuration name="CSDN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Connect" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Study/Reptile/Login CSDN" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Study/Reptile/Login CSDN/CSDN.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Connect" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PyCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Study/MySql" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -430,13 +391,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="string" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PyCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Study" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Study/string.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.ConnectTVNC" />
+        <item itemvalue="Python.string" />
         <item itemvalue="Python.Connect" />
         <item itemvalue="Python.CreateProjectFolder" />
         <item itemvalue="Python.Some function of os" />
-        <item itemvalue="Python.CSDN" />
       </list>
     </recent_temporary>
   </component>
@@ -507,7 +490,10 @@
       <workItem from="1571269909914" duration="587000" />
       <workItem from="1571271281365" duration="5610000" />
       <workItem from="1571281358774" duration="9175000" />
-      <workItem from="1571370505198" duration="8112000" />
+      <workItem from="1571370505198" duration="8223000" />
+      <workItem from="1571733059300" duration="776000" />
+      <workItem from="1571788452909" duration="3125000" />
+      <workItem from="1571791847720" duration="7238000" />
     </task>
     <task id="LOCAL-00001" summary="测试了math库的一些函数">
       <created>1567298668480</created>
@@ -642,11 +628,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571294718137</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="测试主动连接TVNC">
+      <created>1571618586054</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1571618586055</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171501000" />
+    <option name="totallyTimeSpent" value="182751000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -658,10 +651,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1622" height="935" extended-state="6" />
+    <frame x="-8" y="-8" width="1622" height="935" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16005121" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16773367" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -672,17 +665,17 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917705" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.56023455" weight="0.13341646" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.56023455" weight="0.13265306" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.43976545" side_tool="true" weight="0.5449621" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.6119403" visible="true" weight="0.2755611" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8802817" weight="0.27431422" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.6119403" weight="0.13216957" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.8802817" visible="true" weight="0.24812968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32975152" />
       <window_info anchor="right" id="Database" order="4" weight="0.32975152" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" side_tool="true" visible="true" weight="0.10435339" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" side_tool="true" visible="true" weight="0.1978233" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -716,7 +709,8 @@
     <MESSAGE value="测试了连接SQL数据库，成功连接" />
     <MESSAGE value="安装Django" />
     <MESSAGE value="自动创建项目文件夹" />
-    <option name="LAST_COMMIT_MESSAGE" value="自动创建项目文件夹" />
+    <MESSAGE value="测试主动连接TVNC" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试主动连接TVNC" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PyCode$1_1__1_.coverage" NAME="1.1 (1) Coverage Results" MODIFIED="1566913663896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt" />
@@ -1025,6 +1019,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Python Study/AutoConnectTVNC/tvnc_icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python Study/pyautogui/FindPng.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python Study/Excel/ExcelRead.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python Study/Reg/Reg1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1025">
@@ -1058,42 +1069,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python Study/string.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+        <state relative-caret-position="2225">
+          <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python Study/AutoConnectTVNC/ConnectTVNC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="63" column="16" lean-forward="true" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python Study/MySql/Connect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python Study/Excel/ExcelRead.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="40" lean-forward="true" selection-start-line="3" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python Study/pyautogui/FindPng.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python Study/AutoConnectTVNC/tvnc_icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python Study/AutoConnectTVNC/ConnectTVNC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
