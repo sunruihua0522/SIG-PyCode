@@ -1,3 +1,4 @@
+import time
 StringX = '0123456789'
 print('StringX[1:4]=%s'%(StringX[1:4]))
 print('StringX[:4]=%s'%StringX[:4])
@@ -88,7 +89,7 @@ print('ABC'.zfill(10))
 
 #reverse
 print('ABCD'[::-1][0:2])
-
+time.sleep(10)
 exit()
 
 
