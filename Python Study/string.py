@@ -90,6 +90,8 @@ print('ABC'.zfill(10))
 #reverse
 print('ABCD'[::-1][0:2])
 time.sleep(10)
+
+
 exit()
 
 
