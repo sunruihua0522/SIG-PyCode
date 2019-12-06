@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="178c578c-f32f-425a-bf25-634f16ad8bf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python Study/Delete register info Navicat.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Study/Delete register info Navicat.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Study/Delete register info Navicat.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,12 +26,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python Study/Delete register info Navicat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="116" selection-start-line="3" selection-start-column="116" selection-end-line="3" selection-end-column="116" />
+            <state relative-caret-position="70">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python Study/string.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1425">
-              <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+            <state relative-caret-position="525">
+              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -154,6 +154,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,7 +180,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -438,7 +438,9 @@
       <workItem from="1574226401990" duration="10795000" />
       <workItem from="1574993244556" duration="10311000" />
       <workItem from="1575435171620" duration="717000" />
-      <workItem from="1575439398523" duration="3954000" />
+      <workItem from="1575439398523" duration="4046000" />
+      <workItem from="1575514012518" duration="1243000" />
+      <workItem from="1575600401177" duration="771000" />
     </task>
     <task id="LOCAL-00001" summary="测试了math库的一些函数">
       <created>1567298668480</created>
@@ -636,11 +638,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575355009251</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="删除注册表的时候遇到一点权限问题，需要看如何解决">
+      <created>1575444920773</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1575444920774</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233958000" />
+    <option name="totallyTimeSpent" value="236064000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -655,7 +664,7 @@
     <frame x="-8" y="-8" width="1565" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18936877" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19468439" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -670,13 +679,13 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.43976545" side_tool="true" weight="0.5449621" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.6119403" weight="0.36159602" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8802817" visible="true" weight="0.20199502" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.8802817" visible="true" weight="0.36658356" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.4109375" visible="true" weight="0.16810632" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.40748033" visible="true" weight="0.16810632" />
       <window_info anchor="right" id="Database" order="4" weight="0.32975152" />
-      <window_info active="true" anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.5890625" side_tool="true" visible="true" weight="0.16810632" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.5925197" side_tool="true" visible="true" weight="0.16810632" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -717,7 +726,8 @@
     <MESSAGE value="改进自动登录TVNC的代码" />
     <MESSAGE value="测试操作Word文档" />
     <MESSAGE value="测试了MySql数据库的一些简单操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试了MySql数据库的一些简单操作" />
+    <MESSAGE value="删除注册表的时候遇到一点权限问题，需要看如何解决" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除注册表的时候遇到一点权限问题，需要看如何解决" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PyCode$1_1__1_.coverage" NAME="1.1 (1) Coverage Results" MODIFIED="1566913663896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt" />
@@ -1090,17 +1100,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python Study/string.py">
+    <entry file="file://$PROJECT_DIR$/Python Study/Delete register info Navicat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1425">
-          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        <state relative-caret-position="70">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python Study/Delete register info Navicat.py">
+    <entry file="file://$PROJECT_DIR$/Python Study/string.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="116" selection-start-line="3" selection-start-column="116" selection-end-line="3" selection-end-column="116" />
+        <state relative-caret-position="525">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
         </state>
       </provider>
     </entry>
