@@ -1,0 +1,824 @@
+ID: %u - Unit was not found:	 ID：％u - 未找到单元
+————————>ID：％u -未找到单元
+
+Alarm variable 2:	 报警变量 2
+————————>报警变量2
+
+Alarm variable 3:	 报警变量 3
+————————>报警变量3
+
+Change variable parameters…:	 不能完全表现出来。 请过滤！
+————————>改变变量参数...
+
+Activate Brake Speed [.. Hz:	 激活制动速度 [.. Hz
+————————>激活的刹车速度 [.. Hz
+
+Motor Type:	 电机类型
+————————>电机型号
+
+Feeder Up:	 上推料器
+————————>纸盒套入上升
+
+Abort sterile product change:	 中止无菌产品更改
+————————>中止无菌产品切换
+
+cannot be represented completely. Please filter!:	 无法全部表示。请筛选！
+————————>无法完全表示。请筛选！
+
+Diagnostic - Exception:	 诊断 - 故障
+————————>诊断 - 异常
+
+Die Blockierung ist 15 Sekunden aktiv und wird danach automatisch aufgehoben.:	 激活锁定15秒，在此后自动取消。
+————————>封阻激活 15 秒，然后自动取消。
+
+Export recipe as:	 输出到
+————————>导出配方为
+
+Component 40:	 #Carton size detection
+————————>上一项
+
+Drive On\n180ml:	 主驱动开\n180ml
+————————>主驱动开\180ml
+
+Drive On\n150ml:	 主驱动开\n150ml
+————————>主驱动开\150ml
+
+Drive On\n100ml:	 主驱动开\n100ml
+————————>主驱动开\100ml
+
+AbortHst:	 中止H2O2灭菌
+————————>中止双氧水灭菌
+
+Ex_236545:	 HX01电柜反馈回路，检查接触器 (=XX10-QK121/122)
+————————>HX01电柜反馈回路，检查接触器
+
+Ex_32769:	 废风风扇连接丢失
+————————>废风风机连接丢失
+
+Ex_182785:	 5轨无纸盒
+————————>5轨无纸盒-无菌区前门电眼检测到纸盒
+
+Ex_181761:	 1轨无纸盒
+————————>1轨无纸盒-无菌区前门电眼检测到纸盒
+
+Feed Back Loop Not True:	 纸盒套入
+————————>反馈回路不正确
+
+Evaluate CAM values (without active crash detection):	 评估CAM值（未激活碰撞检查）
+————————>评估CAM值（未激活碰撞检测）
+
+Activation packs track 1:	 1轨纸包活化
+————————>1轨活化包
+
+Activation packs track 2:	 2轨纸包活化
+————————>2轨活化包
+
+Activation packs track 3:	 3轨纸包活化
+————————>3轨活化包
+
+Activation packs track 4:	 4轨纸包活化
+————————>4轨活化包
+
+Activation packs track 5:	 5轨纸包活化
+————————>5轨活化包
+
+Activation packs track 6:	 6轨纸包活化
+————————>6轨活化包
+
+Carton counter track 5:	 5轨纸盒计数器
+————————>5轨纸盒计数
+
+Discharger 2:	 出口转移台02-下部伺服常转
+————————>出口转移台02-上部伺服间歇
+
+Initial afterflow:	 初始滞后流量
+————————>afterflow初始值
+
+Signature:	 Signature
+————————>签名
+
+Steam injection empty chain 02:	 蒸汽喷射清空套链02
+————————>蒸汽喷射阀CAM值-套链清空02
+
+Bypass:	 旁路
+————————>旁通
+
+Consumed Packs / Sucked-off:	 出包数/抽纸盒数
+————————>纸盒消耗/抽纸盒数
+
+. Do you want to replace the symbol?:	 . 是否要更换符号？
+————————>. 您是否要更换符号？
+
+Ax04001:	 排包主轴
+————————>转移台主轴
+
+End sequence selection has open input connectors:	 结束序列选择时有输入连接器
+————————>结束顺序选择已打开输入连接器
+
+Expert mode On:	 专家视图
+————————>专家模式开启
+
+Fault Acknowledge:	 故障打印装置
+————————>故障确认
+
+Group09:	 超声波
+————————>灌装阀
+
+Do you really want to execute this function?:	 您是否确实要执行该功能？
+————————>您确实要执行该功能？
+
+[5] Close: Velocity:	 [5] 关闭：速度
+————————>[5] 关闭：速率
+
+Cooling - Machine circuit:	 冷却 - 机器电路
+————————>冷却 - 机器回路
+
+Drive On\nVolumeXL:	 主驱动开\nVolume XL
+————————>主驱动开\n容量XL
+
+Discharge holder :	 排放支架
+————————>排包支架
+
+Ex_69377:	 服务-开关：服务灌装已选择
+————————>服务-开关：灌装服务功能已选择
+
+Ex_101121:	 3+4轨H2O2输送空气 功率因数 >95%
+————————>3+4轨H2O2传输空气功率因数 >95%
+
+Ax09007:	 灌装阀07
+————————>灌装07阀
+
+Cooling cabinet circuit inlet temperature:	 电柜冷却回路进口温度
+————————>电柜冷却液进口温度
+
+Cooling cabinet circuit pressure:	 电柜冷却回路压力
+————————>电柜冷却液压力
+
+Carton counter track 4:	 4轨纸盒计数器
+————————>4轨纸盒计数
+
+Heater H2O2:	 H2O2加热器
+————————>双氧水加热器
+ cannot be renamed to :	 不能改名为
+————————>不能重命名为
+
+Activation number:	 激活数目
+————————>活化检查数
+
+are transferred from the server:	 从服务器转移
+————————>从服务器排包
+
+Motor Thermal Protection:	 电动机热保护
+————————>电机热保护
+
+Motor Replacement active:	 电机复位激活
+————————>电机更换激活
+
+HomePos:	 找零位
+————————>到零位
+
+Date of coding set ?:	 设置译码的日期？
+————————>设置喷码的日期？
+
+Windows aseptic zone clean and dry ?:	 无菌区窗口是否洁净并且干燥？
+————————>无菌区窗板是否洁净并且干燥？
+
+Fan Speed:	 故障确认
+————————>风扇速度
+
+Blowing valves:	 吹气阀
+————————>吹纸盒电磁阀
+
+CIP request:	 CIP 请求
+————————>CIP请求
+
+Feeder:	 纸盒套入 - 服务
+————————>纸盒套入
+
+Ex_261633:	 推出器 01 传输错误
+————————>推出器 01 传输错误：注意推出器1电眼
+
+Ex_202753:	 启动驱动器
+————————>开启灌装机主驱动！
+
+Drain after production:	 生产后排空
+————————>生产结束后排空 
+
+Alarm/event group log in/log off:	 警报/事件组登入/登出
+————————>警报/事件组登入/退出
+
+Fan On:	 风扇速度
+————————>风扇开启
+
+Drain product tank into cartons:	 生产结束后排空 
+————————>排空产品桶到纸盒
+
+Archive:	 档案
+————————>存档
+
+Drive On\nVolumeM:	 主驱动开\n量 M
+————————>主驱动开\n容量M
+
+Ex_182273:	 3轨无纸盒
+————————>3轨无纸盒-无菌区前门电眼检测到纸盒
+
+Cooling cabinet circuit return temperature:	 电柜冷却回路回流温度
+————————>电柜冷却液回流温度
+
+Consumed packs track 1:	 1轨纸盒消耗量
+————————>1轨纸盒数量
+
+Current setpoint tank pressure:	 产品桶压力当前设置值
+————————>当前产品桶压力设定值
+
+Time filter:	 时间筛选器 
+————————>时间过滤器 
+
+Time filter::	 时间筛选器:
+————————>时间过滤器:
+
+Confirmation of the action :	 确认动作 
+————————>确认行动
+
+Please select required operating mode for open doors!:	 请为打开的门选择需要的操作模式
+————————>请选择开门需要的操作模式
+
+Condensate V23.1:	 冷凝液V23.1
+————————>冷凝水阀V23.1
+
+existing switching sequences:	 预期
+————————>现有的切换序列
+
+Feeder - Service:	 纸盒套入 1
+————————>纸盒套入 - 服务
+
+Windows aseptic zone tightly closed ?:	 窗口无菌区是否紧闭？
+————————>无菌区窗口是否紧闭？
+
+Capper:	 封口机
+————————>贴盖机
+
+Cleaning active:	 清洁激活
+————————>清洗激活
+
+Drive On\nVolumeL:	 驱动器打开\nVolume L
+————————>主驱动开\nVolume L
+
+Consumed packs track 2:	 2轨纸盒消耗量
+————————>2轨消耗纸盒数
+
+Activation packs all tracks:	 激活所有轨纸盒
+————————>所有轨的活化包
+
+Cycles start-up circuit:	 循环启动电路
+————————>循环启动周期
+
+Exhaust performance:	 现有的切换序列
+————————>抽废风性能
+
+X-Axis (time axis):	 Ⅹ-轴 (时间轴)
+————————>Ⅹ-轴(时间轴)
+
+Expected:	 专家诊断
+————————>预期
+
+Close flap:	 关闭翻门
+————————>关闭阀门
+
+Comparison with 2nd time period (only for archive with filter for time range or lot):	 和第二个时间段比较（仅针对使用时间范围或批次过滤器的存档)
+————————>和第二个时间段比较（仅针对使用时间范围或批次过滤器的存档）
+
+Downholder discharger:	 向下固定器卸载机
+————————>向下固定器转移站
+
+Export in SQL database:	 导出配方为
+————————>SQL 数据库中的导出
+
+6 cartons:	 6个纸盒
+————————>6 个纸盒
+
+Feeder down:	 纸盒套入连杆
+————————>纸盒套入下降
+
+Component 39:	 UHT 模拟
+————————>UHT模拟
+
+Component 38:	 CIP 模拟
+————————>CIP模拟
+
+Component 37:	 UHT 端子
+————————>UHT端子
+
+Component 36:	 UHT 单个 DP
+————————>UHT单个DP
+
+Ex_182017:	 2轨无纸盒
+————————>2轨无纸盒-无菌区前门电眼检测到纸盒
+
+Consumed packs track 3:	 3轨纸盒消耗量
+————————>3轨纸盒消耗数
+
+Day(s)      -         Month         -         Year:	 天数      -         月         -         年
+————————>日      -         月         -         年
+
+No time filter:	 无时间滤波
+————————>无时间筛选
+
+Time passed:	 过去时间
+————————>经过时间
+
+Idle:	 闲置
+————————>空闲
+
+Press reset button at correct position:	 在正确位置按下重置按钮
+————————>请在指定的复位开关上复位！
+
+Laboratory Packs:	 实验室取样包
+————————>实验室纸盒
+
+Carton volume:	 纸盒灌装量
+————————>纸盒容量
+
+H2O2 - Service - Measuring values:	 双氧水 - 服务 - 测量值
+————————>H2O2 - 服务 - 测量值
+
+Export all recipes:	 导出 CSV：
+————————>导出所有产品配方
+
+Component 24:	 拓展部件温度
+————————>伸展部件温度
+
+Component 23:	 冷凝水桶温度
+————————>冷凝水罐温度
+
+Dosing Off:	 喷洒关闭
+————————>剂量关
+
+Safety Level active:	 安全级别已激活
+————————>安全级别服务模式已激活
+
+Condensate barrier temperature:	 冷凝水障壁温度
+————————>冷凝水障蔽温度
+
+Defective packs all tracks:	 所有轨的不良的纸包
+————————>所有轨不合格包
+
+Laboratory packs:	 实验室纸盒
+————————>实验室取样包
+
+The recipe number '%d' already exists!:	 食谱编号'％d'已经存在！
+————————>配方编号'％d'已经存在！
+
+SAP list:	 SAP 列表
+————————>SAP列表
+
+SAP parameters:	 SAP 参数
+————————>SAP参数
+
+Motor Speed High Limit.. Hz:	 电机转速最高限制.. Hz
+————————>电机转速最高限制..Hz
+
+This function activates FDA reporting on this machine!:	 這個功能激活FDA在這台機器上的報告！
+————————>这个功能激活FDA在這台機器上的報告！
+
+Processed Packs:	 纸盒进程
+————————>生产纸盒计数(无菌区登记)
+
+Expert view:	 导出
+————————>专家视图
+
+Cooling - Cabinet circuit inlet:	 冷却 - 机器冷却液入口
+————————>冷却 - 机柜电路入口
+
+Export:	 导出所有产品配方
+————————>导出
+
+Export to:	 导出所选 XML ...
+————————>输出到
+
+Diversion gates:	 转移门
+————————>排包门
+
+Ex_115457:	 氮气喷射服务按钮激活
+————————>氮气注入服务按钮激活
+
+Ex_11521:	 H2O2 消毒等待蒸汽灭菌结束
+————————>H2O2 灭菌等待蒸汽灭菌结束
+
+Motor Voltage:	 电动机电压
+————————>电机电压
+
+Drive In Control:	 駕駛控制
+————————>驱动控制中
+
+Good Packs:	 检查良好包
+————————>生产合格包数
+
+PLC assumes control:	 PLC接管控制
+————————>PLC 假定控制
+
+Good packs:	 检查好包
+————————>检查良好包
+
+Cleaning circular line:	 清洁环形管路
+————————>清洗环形管路
+
+Basic procedure:	 基座程序
+————————>基本程序
+
+Actual Screen Filter:	 实际屏幕筛选器
+————————>实际屏幕过滤器
+
+Maximum initial afterflow:	 最大初始滞后流量
+————————>afterflow的最大初始值
+
+Close current:	 關閉電流
+————————>关闭电流
+
+Edit the recipe:	 编辑食谱
+————————>编辑产品配方
+
+Display*:	 显示 
+————————>显示 PLC
+
+none:	 无·
+————————>无
+
+event-triggered:	 触发事件
+————————>事件触发
+
+FC Baudrate Profibus:	 FDA激活
+————————>Profibus波特率
+
+External sensor:	 风扇开启
+————————>外部传感器
+
+FB HMI Control - PLC Info:	 Profibus波特率
+————————>FB HMI控制 - PLC信息
+
+Do you really want to delete filter :	 您是否确实要删除筛选器 
+————————>您是否确实要删除过滤器 
+
+Continuous operation:	 持续工作
+————————>蒸汽喷射间隔-有纸盒
+
+Decimal:	 小数
+————————>序列号
+
+Feeder tie bar:	 纸盒套入上升
+————————>纸盒套入连杆
+
+Ex_237313:	 V10电柜急停反馈回路，检查接触器 (=XX10-QK11/ =XY32-X1-QK1)
+————————>V10电柜急停反馈回路，检查接触器
+
+Dedusting exhaust performance:	 除尘排气性能
+————————>除尘压力
+
+Description*:	 描述  *
+————————>控制策略说明
+
+X-Axis and time filter...:	 X轴和时间筛选器... 
+————————>X轴和时间过滤器... 
+
+Automatic Motor Adaption:	 电机自动调整
+————————>电机自动适应
+
+M_WRS Fresh Water:	 水回用系統 - 淡水
+————————>水回用系統 - 水
+
+Alarm/event class filter::	 报警/事件类别筛选器：
+————————>报警/事件类别过滤器：
+
+Discharge holder:	 排放固定器
+————————>排包支架
+
+Faulty fillings in PLC buffer:	 FB HMI控制 - 机器数据
+————————>PLC 缓冲器中存在灌装故障
+
+FDA test:	 反馈回路沒有错误
+————————>FDA 测试
+
+Duplicate:	 复制
+————————>重复
+
+Cleaning:	 清洁
+————————>清洗
+
+Carton transfer:	 纸盒输送
+————————>纸盒传输
+
+Ex_237569:	 伺服控制器VX15反馈回路，检查接触器 (=XX10-QK15/ = XA10-X8-QK1)
+————————>反馈循环 Vx15
+
+Ex_182529:	 4轨无纸盒
+————————>4轨无纸盒-无菌区前门电眼检测到纸盒
+
+M_WRS_Fresh_Water:	 水回用系統 - 淡水
+————————>水回用系統 - 水
+
+Workbench:	 工作台
+————————> 工作平台
+
+max:	 max
+————————>最大
+
+Device Not Supported:	 設備不受支持
+————————>不受支持装置
+
+0 = Asynchron:	 0 =異步
+————————>0 =异步
+
+Abort chain cleaning:	 中止链清洁
+————————>中止套链清洗
+
+Abort H2O2 sterilization:	 中止 H2O2 灭菌
+————————>中止双氧水灭菌
+
+Alarm/event groups filter::	 报警/事件组筛选器：
+————————>报警/事件组过滤器：
+
+Bis (Zeit):	 截至
+————————>截至（时间）
+
+Cap suction:	 盖吸取
+————————>盖抽吸
+
+Diagnostic alarm present:	 存在诊断报警
+————————>诊断报警存在
+
+H2O2 - Regulation ratio heater track 1-2:	 双氧水 - 1-2轨加热器调节比率 
+————————>H2O2 - 1-2轨加热器调节比率 
+
+H2O2 - Regulation ratio heater track 3-4:	 双氧水 - 3-4轨加热器调节比率 
+————————>H2O2 - 3-4轨加热器调节比率 
+
+H2O2 - Regulation ratio heater track 5-6:	 双氧水 - 5-6轨加热器调节比率
+————————>H2O2 - 5-6轨加热器调节比率
+
+Buffer:	 缓冲器
+————————>缓冲塔
+
+Ex_236801:	 反馈循环 Hx01，检查接触器 (=XX10-QK123/124)
+————————>反馈循环 Hx01
+
+Ex_16642:	 V6.1阀打开传感器
+————————>V6.1阀关闭传感器
+
+Feed Back Loop Not False:	 反馈回路不正确
+————————>反馈回路沒有错误
+
+OFF:	 关闭
+————————>关
+
+User defined:	 用户自定义
+————————>用户定义
+
+Steam injection production 02:	 蒸汽喷射生产02
+————————>蒸汽喷射阀CAM值-生产状态02
+
+Additional Stroke:	 附加行程
+————————>额外行程
+
+Consumed Packs:	 消耗包装
+————————>抽纸盒数
+
+Ax09001:	 超声波主轴
+————————>灌装阀01
+
+Cover plates fitted clean and dry ?:	 是否整洁而干燥地安装了盖板？
+————————>是否安装整洁而干燥的盖板？
+
+Diverted:	 已转移
+————————>已排包
+
+Expert mode Off:	 专家模式开启
+————————>专家模式关闭
+
+Diagnostic - Audit Trail:	 诊断 - 审查跟踪
+————————>诊断 - 审查追踪
+
+Recipe:	 产品配方
+————————>配方 
+
+Identification:	 鉴定
+————————>变量代码
+
+Ex_237057:	 伺服控制器VX10反馈回路，检查接触器（=XX10-QK10/ =XA10-X7-QK1)
+————————>电柜VX10反馈回路，检查接触器
+
+Ex_183041:	 6轨无纸盒
+————————>6轨无纸盒-无菌区前门电眼检测到纸盒
+
+Motor Replace State:	 电机复位状态
+————————>电机更换状态
+
+Heater without coil sensor:	 不带线圈加热器传感器
+————————>无加热线圈温度监控
+
+Days:	 天
+————————>天数
+
+Left::	 向左：
+————————>向左:
+
+Generator %d:	 发电机 %d
+————————>发生器 %d
+
+ Group03:	 灌装部分
+————————>灌装段
+
+Laminar flow plates clean and dry ?:	 层状流量板洁净并且干燥？
+————————>无菌区扰流板洁净并且干燥？
+
+Fault printing unit:	 PLC 缓冲器中存在灌装故障
+————————>故障打印装置
+
+Cleaning medium:	 清洁介质
+————————>清洗介质
+
+Exhaust flap:	 抽废风性能
+————————>抽废风阀门
+
+Extended start-up circuit:	 外部故障
+————————>扩展的灌装启动程序
+
+Expert Diagnosis:	 专家模式关闭
+————————>专家诊断
+
+Ex_191489:	 缓冲塔进口链条堵包或故障
+————————>灌装机出口链条堵包或对射电眼故障
+
+Ex_157697:	 关闭相对侧的门
+————————>关闭对面的门
+
+Cooling machine circuit inlet temperature:	 机器冷却回路进口温度
+————————>机器冷却液进口温度
+
+Diverting error:	 转移错误
+————————>排包错误
+
+Without coil power factor:	 无线圈功率因数
+————————>无加热线圈功率因数监控
+
+Day(s):	 天
+————————>天数
+
+Drive Type Mismatch:	 驅動器類型不匹配
+————————>驱动器类型不匹配
+
+Activation Packs:	 激活包
+————————>纸盒活化检查数
+
+FB HMI Control - Machine Data:	 FB HMI控制 - PLC信息
+————————>FB HMI控制 - 机器数据
+
+Ext. Datablock:	 扩展的灌装启动程序
+————————>扩展数据库
+
+Recipe group :	 产品配方组 
+————————>配方组
+
+Display calibration:	 显示屏校准
+————————>校准操作屏
+
+Energy factor upper coil:	 上线圈能量因数
+————————>上加热线圈能量因数
+
+Abort cleaning:	 中止清洁
+————————>中止清洗
+
+Duplicate Recipe:	 重复的食谱
+————————>复制配方
+
+Feeder 1:	 纸盒套入 2
+————————>纸盒套入 1
+
+AbortProdHst:	 中止生产时H2O2灭菌
+————————>中止生产中无菌区灭菌
+
+AbortCleanSprayPistol:	 中止水枪清洗
+————————>中止水枪手工清洗
+
+AbortCip:	 中止Cip
+————————>中止清洗
+
+Filling - Additional functions - Product Change / Empty product tank to packs:	 灌装 - 其他功能 - 产品更换 /清空产品桶产品到纸盒
+————————>灌装-附加功能-产品切换/用纸盒排空产品桶
+
+Filling start all station 1:	 填充開始所有站1
+————————>全部1站开始灌装
+
+Filling start all station 2:	 填充開始所有站2
+————————>全部2站开始灌装
+
+Alarm Message List Filter:	 报警信息列表过滤器
+————————>报警信息列表筛选
+
+Fill color:	 填充颜色  
+————————>灌装颜色  
+
+Locked:	 锁定
+————————>已锁定
+
+M_AxesNotReadyInit:	 M_轴初始化未准备好
+————————>灌装机初始化未准备好！
+
+Position mandrel wheel nozzle:	 定位成型杆喷嘴
+————————>成型杆活化头相对位置
+
+FDA Activation:	 FDA 测试
+————————>FDA激活
+
+Ax04002:	 转移台1轴
+————————>出口转移台01-下部伺服常转
+
+Ax09002:	 超声波轴
+————————>灌装阀02
+
+Cooling - Bottom press track 1-3:	 冷却 - 1-3轨底部压制
+————————>冷却 - 1-3轨底部压座 
+
+Cooling - Bottom press track 4-6:	 冷却 - 4-6轨底部压制
+————————>冷却 - 4-6轨底部压座
+
+Export CSV:	 文件导出 
+————————>导出 CSV：
+
+You start a cleaning with steam barrier !:	 您开始清洁蒸汽障蔽！
+————————>您开始带蒸汽障蔽清洗！
+
+Display cleaning:	 显示屏清洁
+————————>清洁操作屏
+
+Actual value:	 实际值
+————————>实际值(PLC)
+
+Feeder 2:	 纸盒套入下降
+————————>纸盒套入 2
+
+Defective packs track 1:	 1轨有缺陷包数
+————————>1轨不合格包数
+
+Defective packs track 2:	 2轨有缺陷包数
+————————>2轨不合格包数
+
+Defective packs track 3:	 3轨有缺陷包数
+————————>3轨不合格包数
+
+Defective packs track 4:	 4轨有缺陷包数
+————————>4轨不合格包数
+
+Defective packs track 5:	 5轨有缺陷包数
+————————>5轨不合格包数
+
+Defective packs track 6:	 6轨有缺陷包数
+————————>6轨不合格包数
+
+Function:	 函数
+————————>功能 
+
+Revision:	 修正
+————————>调整
+
+Ax03005:	 顶部成形2轴-成形压块
+————————>顶部成形2轴-耳翼夹块
+
+Ax04003:	 纸盒转移2轴(推)
+————————>出口转移台02-上部伺服间歇
+
+CheckListNotUsed:	 未使用清单
+————————>正常
+
+Cleaning - Medium:	 清洁 - 介质
+————————>清洗 - 介质
+
+Default fill weight < default after-run:	 运行后默认填充重量 < 默认
+————————>运行后默认灌装重量 < 默认
+
+Diversion gate blowing air:	 转移门吹送空气
+————————>排包门吹送空气
+
+Export for file :	 SQL 数据库中的导出
+————————>文件导出 
+
+Export XML selected...:	 扩展数据库
+————————>导出所选 XML ...
+
+External Fault:	 外部传感器
+————————>外部故障
+
+H2O2 quantity output PID control:	 双氧水数量输出 PID 控制
+————————>H2O2 数量输出 PID 控制
+
+Axis group diversion:	 轴组转移
+————————>转移台轴组
+
+ChecklistNotUsed:	 检查列表未使用
+————————>正常
+
+Ex_237825:	 电柜HX10反馈回路，检查接触器 (=XX10-QK10)
+————————>电柜HX10反馈回路，检查接触器
+
+Delayed carton suction through jam:	 由于拥挤延迟吸纸盒
+————————>由于堵包延迟抽纸盒
+
