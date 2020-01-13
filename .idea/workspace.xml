@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="178c578c-f32f-425a-bf25-634f16ad8bf2" name="Default Changelist" comment="测试自动备份文件">
-      <change afterPath="$PROJECT_DIR$/Python Study/Backup All the file/AutoScreenShot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Study/Backup All the file/File copy list.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Study/Backup All the file/GetFileAttribute.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Study/Backup All the file/新建文本文档.txt" afterDir="false" />
+    <list default="true" id="178c578c-f32f-425a-bf25-634f16ad8bf2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Python Study/Backup All the file/FillerBase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Study/Backup All the file/fileModelInfo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Study/Backup All the file/File copy list.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Python Study/Backup All the file/File copy list.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Study/Backup All the file/GetFileAttribute.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python Study/Language Merge/Merge_Language_file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="-700">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -42,14 +42,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python Study/Backup All the file/GetFileAttribute.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python Study/Backup All the file/AutoBackup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="88" column="67" lean-forward="true" selection-start-line="88" selection-start-column="67" selection-end-line="88" selection-end-column="67" />
+            <state relative-caret-position="150">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#2189#2418#0" />
+                <element signature="e#2446#2473#0" />
+                <element signature="e#3098#3482#1" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python Study/Backup All the file/FillerBase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -64,19 +76,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python Study/pyautogui/FindPng.py">
+        <entry file="file://$PROJECT_DIR$/Python Study/Backup All the file/fileModelInfo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python Study/Excel/ExcelRead.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="40" />
+            <state relative-caret-position="275">
+              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -174,10 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python Study/Number.py" />
-        <option value="$PROJECT_DIR$/Python Study/Standerd liabrary/Standerd Lib.py" />
-        <option value="$PROJECT_DIR$/Python Study/Reg/Reg1.py" />
-        <option value="$PROJECT_DIR$/Python Study/Excel/Excel.py" />
         <option value="$PROJECT_DIR$/Python Study/Excel/ExcelWrite.py" />
         <option value="$PROJECT_DIR$/Python Study/Excel/ExcelModify.py" />
         <option value="$PROJECT_DIR$/Python Study/Standerd liabrary/Dictionary.py" />
@@ -225,14 +224,18 @@
         <option value="$PROJECT_DIR$/Python Study/Language Merge/Merge_Language_file.py" />
         <option value="$PROJECT_DIR$/Python Study/Backup All the file/AutoScreenShot.py" />
         <option value="$PROJECT_DIR$/Python Study/Backup All the file/GetFileAttribute.py" />
+        <option value="$PROJECT_DIR$/Python Study/Backup All the file/dist/fileModelInfo.py" />
+        <option value="$PROJECT_DIR$/Python Study/Backup All the file/fileModelInfo.py" />
+        <option value="$PROJECT_DIR$/Python Study/Backup All the file/AutoBackup.py" />
+        <option value="$PROJECT_DIR$/Python Study/Backup All the file/FillerBase.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="273" />
-    <option name="y" value="45" />
+    <option name="x" value="-50" />
+    <option name="y" value="69" />
     <option name="width" value="1489" />
-    <option name="height" value="1047" />
+    <option name="height" value="979" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -263,7 +266,7 @@
               <item name="PyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="PyCode" type="462c0819:PsiDirectoryNode" />
               <item name="Python Study" type="462c0819:PsiDirectoryNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="Backup All the file" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PyCode" type="b2602c69:ProjectViewProjectNode" />
@@ -289,18 +292,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\PyCode\Python Study\Language Merge" />
-      <recent name="D:\Code\PyCode\Python Study\Excel" />
-      <recent name="D:\Code\PyCode\Python Study\Excel\File" />
-      <recent name="D:\Code\PyCode\Python Study" />
-      <recent name="D:\Code\PyCode\PyQt\New project dir" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Code\PyCode\Python Study\Language Merge" />
       <recent name="D:\Code\PyCode\Python Study\Docx" />
       <recent name="D:\Code\PyCode\Python Study\AutoConnectTVNC" />
       <recent name="D:\Code\PyCode\Python Study\pyautogui" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\PyCode\Python Study\Backup All the file" />
+      <recent name="D:\Code\PyCode\Python Study\Language Merge" />
+      <recent name="D:\Code\PyCode\Python Study\Excel" />
+      <recent name="D:\Code\PyCode\Python Study\Excel\File" />
+      <recent name="D:\Code\PyCode\Python Study" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -315,21 +318,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.GetFileAttribute">
-    <configuration name="1.1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.AutoBackup">
+    <configuration name="AutoBackup" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MINST" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Study/Backup All the file" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MINST/1.1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Study/Backup All the file/AutoBackup.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -447,11 +447,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.AutoBackup" />
         <item itemvalue="Python.GetFileAttribute" />
         <item itemvalue="Python.Merge_Language_file" />
         <item itemvalue="Python.Encode_Decode" />
         <item itemvalue="Python.Merge Language file" />
-        <item itemvalue="Python.1.1" />
       </list>
     </recent_temporary>
   </component>
@@ -547,7 +547,8 @@
       <workItem from="1578384495533" duration="1718000" />
       <workItem from="1578386458976" duration="251000" />
       <workItem from="1578402596099" duration="6085000" />
-      <workItem from="1578539421549" duration="5012000" />
+      <workItem from="1578539421549" duration="5073000" />
+      <workItem from="1578878032817" duration="11860000" />
     </task>
     <task id="LOCAL-00001" summary="测试了math库的一些函数">
       <created>1567298668480</created>
@@ -766,11 +767,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577766216463</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="测试自动备份文件">
+      <created>1578619399069</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1578619399069</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270540000" />
+    <option name="totallyTimeSpent" value="282461000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -782,10 +790,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1565" height="935" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18936877" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15405117" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -796,17 +804,17 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917705" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.56023455" weight="0.13109426" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.56023455" weight="0.51745635" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.43976545" side_tool="true" weight="0.5449621" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.6119403" weight="0.1820449" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.8802817" visible="true" weight="0.28802994" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.6119403" weight="0.15817985" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8802817" weight="0.28710726" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" sideWeight="0.40273038" weight="0.05383795" />
       <window_info anchor="right" id="Database" order="4" weight="0.32975152" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.59726965" side_tool="true" visible="true" weight="0.15016611" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.59726965" side_tool="true" visible="true" weight="0.120469086" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12313433" />
@@ -847,7 +855,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="需要继续测试python的命名管道" />
     <MESSAGE value="玩了一下pyautogui没什么特别的功能，跟按键精灵差不多感觉" />
     <MESSAGE value="主要测试了一下Python的正则表达式，还是很强大的" />
     <MESSAGE value="主要测试了一下Python的反射代码，传参等，很好用" />
@@ -872,7 +879,8 @@
     <MESSAGE value="删除注册表的时候遇到一点权限问题，需要看如何解决" />
     <MESSAGE value="解决删除注册表子项无法删除的问题，需要先删除子项再删除父项" />
     <MESSAGE value="完成灌装机语言文件的合并" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成灌装机语言文件的合并" />
+    <MESSAGE value="测试自动备份文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试自动备份文件" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PyCode$1_1__1_.coverage" NAME="1.1 (1) Coverage Results" MODIFIED="1566913663896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt" />
@@ -883,19 +891,6 @@
     <SUITE FILE_PATH="coverage/PyCode$1_2.coverage" NAME="1.2 Coverage Results" MODIFIED="1566981756147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python Study/Project/Page.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python Study/Project/ip.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python Study/Reptile/Get course in tencent website/Courselist.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python Study/Project/TaoBao.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1185,13 +1180,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python Study/Language Merge/Merge_Language_file.py">
+    <entry file="file://$PROJECT_DIR$/Python Study/pyautogui/FindPng.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="125">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1243,6 +1235,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Python Study/Backup All the file/GetFileAttribute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#166#425#0" />
+            <element signature="e#469#1215#0" />
+            <element signature="e#1249#1348#0" />
+            <element signature="e#1393#1429#0" />
+            <element signature="e#2183#2412#0" />
+            <element signature="e#2454#2474#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python Study/Language Merge/Merge_Language_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-700">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python Study/Backup All the file/AutoScreenShot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1250,20 +1268,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python Study/pyautogui/FindPng.py">
+    <entry file="file://$PROJECT_DIR$/Python Study/Backup All the file/fileModelInfo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        <state relative-caret-position="275">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python Study/Backup All the file/GetFileAttribute.py">
+    <entry file="file://$PROJECT_DIR$/Python Study/Backup All the file/AutoBackup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="88" column="67" lean-forward="true" selection-start-line="88" selection-start-column="67" selection-end-line="88" selection-end-column="67" />
+        <state relative-caret-position="150">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#2189#2418#0" />
+            <element signature="e#2446#2473#0" />
+            <element signature="e#3098#3482#1" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python Study/Backup All the file/FillerBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
