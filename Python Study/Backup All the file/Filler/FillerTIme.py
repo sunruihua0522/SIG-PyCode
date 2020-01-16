@@ -1,7 +1,7 @@
 from FillerBase import FillerBase
 import datetime
 import sys
-sys.path.append('..\\')
+sys.path.append('..\\Model')
 from fileModelInfo import fileModelInfo
 import os
 class FillerTime(FillerBase):
@@ -20,6 +20,8 @@ class FillerTime(FillerBase):
                         model.FullName = os.path.join(path, file)
                         model.Root = l.Root
                         model.CopyNumber = l.CopyNumber
+                        model.Zip = l.Zip
+                        model.PathDes = l.PathDes
                         t = model.GetModifyTime()
                         difference = now - t
                         if (difference.days <= timeInDays):

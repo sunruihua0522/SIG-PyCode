@@ -2,7 +2,7 @@ import FillerBase
 import datetime
 import os
 import sys
-sys.path.append('..\\')
+sys.path.append('..\\Model')
 from fileModelInfo import fileModelInfo
 class FillerToday(FillerBase.FillerBase):
     def ExcuteFiller(self):
@@ -19,6 +19,8 @@ class FillerToday(FillerBase.FillerBase):
                         model.FullName = os.path.join(path, file)
                         model.Root = l.Root
                         model.CopyNumber = l.CopyNumber
+                        model.Zip = l.Zips
+                        model.PathDes = l.PathDes
                         t = model.GetModifyTime()
                         if (t.year == now.year and t.month == now.month and t.day == now.day):
                             self._fileFullNamesOut.append(model)

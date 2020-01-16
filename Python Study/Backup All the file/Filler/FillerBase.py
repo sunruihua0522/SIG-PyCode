@@ -1,6 +1,6 @@
 import sys
 import datetime
-sys.path.append('..\\')
+sys.path.append('..\\Model')
 from fileModelInfo import fileModelInfo
 
 class FillerBase:
