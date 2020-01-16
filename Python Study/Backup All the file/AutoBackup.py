@@ -1,15 +1,16 @@
 import os
-import time
-import datetime
-import threading
-import zipfile
+import sys
+sys.path.append('Filler')
+#from FillerBase import FillerBase
+from FillerToday import FillerToday
+from FillerTime import FillerTime
+from FillerFileNumber import FillerFileNumber
 import socket
 import xlrd
 import shutil
 from fileModelInfo import fileModelInfo
 from tqdm import tqdm
 fileSize = 0
-
 
 def getAllFileInfo(excelFilePath):
     fileModelList = []
@@ -19,59 +20,37 @@ def getAllFileInfo(excelFilePath):
         a = fileModelInfo()
         a.Descr = str(sheet.cell_value(row, 1)).replace('$COMPUTERNAME$',getComputerName())
         a.FullName = str(sheet.cell_value(row, 2)).replace('$COMPUTERNAME$',getComputerName())
-        a.TailName = str(a.FullName.split('\\')[-1]).replace('$COMPUTERNAME$',getComputerName())
         a.PathDes = sheet.cell_value(row, 3)
-        a.Available = os.path.exists(a.FullName)
-        a.IsFile = os.path.isfile(a.FullName) & a.Available
-        if(a.IsFile):
-            a.Size = os.path.getsize(a.FullName)
+        a.Enable = (sheet.cell_value(row, 4) == 1)
+        if(not a.IsFile()):
+            a.CopyNumber = int(sheet.cell_value(row, 5))
         else:
-            a.CopyAll = (sheet.cell_value(row, 5)== 1)
-        a.Enable = (sheet.cell_value(row, 4)== 1)
+            a.CopyNumber = -1
         a.Zip = (sheet.cell_value(row, 6)== 1)
+        a.Root = a.FullName
         fileModelList.append(a)
-
     return fileModelList
-def get_FileSize(filePath):
-    fsize = os.path.getsize(filePath)
-    fsize = fsize / float(1024 * 1024)
-    return round(fsize, 2)
+
 def copyFile(filePathSrc,filePathDes):
     shutil.copy(filePathSrc,filePathDes)
-def copyFilesInFolder(path,pathDes,copyall=False):
-    L = os.listdir(path)
-    now = datetime.datetime.now()
-    for l in L:
-        if(os.path.isfile(os.path.join(path,l))):
-            copyFile(os.path.join(path,l),os.path.join(pathDes,l))
-        else:
-            t = datetime.datetime.fromtimestamp(os.path.getmtime(os.path.join(path, l)))
-            if (not copyall):
-                if (not (t.year == now.year and t.month == now.month and t.day == now.day)):
-                    continue
-            shutil.copytree(os.path.join(path, l), os.path.join(pathDes, l))
-def getProgress(filePath):
-    fileSize = get_FileSize(filePath)
-    size = 0
-    while(size<fileSize):
-        size = get_FileSize(filePath)
-        print('\r%.2f%%'%(100*size/fileSize),end = '',flush=True)
+
+def copyFilesToFolder(PathModelList,pathDes):
+    for model in PathModelList:
+        DesPath = os.path.join(pathDes,str(model.FullPath).replace(model.Root,''))
+        if(not os.path.exists(DesPath)):
+            os.makedirs(DesPath)
+        copyFile(model.FullPath,DesPath)
+
 def getComputerName():
     return socket.gethostname()
+
 if __name__ == '__main__':
     L = getAllFileInfo('File copy list.xlsx')
-    for l in L:
+    L1 = FillerTime(L).ExcuteFiller(360)
+    L2 = FillerToday(L1).ExcuteFiller()
+    L3 = FillerFileNumber(L2).ExcuteFiller()
+    for l in L2:
         print(l.FullName)
-        if(l.Enable and l.Available):
-            if(l.IsFile):
-                copyFile(l.FullName, os.path.join(l.PathDes,l.TailName))
-            else:
-                if(not os.path.exists(os.path.join(l.PathDes,l.TailName))):
-                    os.makedirs(os.path.join(l.PathDes,l.TailName))
-                copyFilesInFolder(l.FullName,os.path.join(l.PathDes,l.TailName),l.CopyAll)
-    print('done')
-    input('Press any key to exit......')
-
 
     '''
     t1 = threading.Thread(target = copyFile, kwargs={'filePathSrc':'D:\\Software\\HALCON17.12.0.0\\halcon-17.12.0.0-windows.exe','filePathDes':'D:\\a.exe'})
