@@ -31,14 +31,11 @@ class FillerFileNumber(FillerBase):
         if not dir_list:
             return
         str_list = []
-        isContain = False
         for l in dir_list:
-            for model in self.FileFullNamesIn:
-                if(model.GetTailName() == l):
-                    isContain=True
-                    break
-            if(os.path.isfile(os.path.join(file_path,l)) and isContain):
-                str_list.append(os.path.join(file_path,l))
+            d = list(filter(lambda x: x.GetTailName == l,self.FileFullNamesIn))
+            if(not d):
+                if(os.path.isfile(os.path.join(file_path,l))):
+                    str_list.append(os.path.join(file_path,l))
         else:
             # 注意，这里使用lambda表达式，将文件按照最后修改时间顺序升序排列
             # os.path.getmtime() 函数是获取文件最后修改时间

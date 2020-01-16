@@ -50,7 +50,7 @@ if __name__ == '__main__':
     L2 = FillerToday(L1).ExcuteFiller()
     L3 = FillerFileNumber(L2).ExcuteFiller()
     for l in L2:
-        print(l.FullName)
+        print(l.FullName, l.Root, l.CopyNumber, )
 
     '''
     t1 = threading.Thread(target = copyFile, kwargs={'filePathSrc':'D:\\Software\\HALCON17.12.0.0\\halcon-17.12.0.0-windows.exe','filePathDes':'D:\\a.exe'})
