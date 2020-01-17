@@ -9,7 +9,8 @@ class fileModelInfo:
         self.CopyNumber = -1
         self.Zip = False
         self.Root = 'INVALID_ROOT'
-
+        self.Time = -1
+        self.ListIn = []
     def IsAvailable(self):
         return os.path.exists(self.FullName)
     def GetSize(self):
@@ -22,9 +23,16 @@ class fileModelInfo:
         return ''
     def IsFile(self):
         return os.path.isfile(self.FullName)
-
     def GetModifyTime(self):
         t = datetime.datetime.fromtimestamp(os.path.getmtime(self.FullName))
         return t
-
-
+    def Clone(self, model):
+        self.FullName = model.FullName
+        self.Descr = model.Descr
+        self.PathDes = model.PathDes
+        self.Enable = model.Enable
+        self.CopyNumber = model.CopyNumber
+        self.Zip = model.Zip
+        self.Root = model.Root
+        self.Time = model.Time
+        self.ListIn = []
