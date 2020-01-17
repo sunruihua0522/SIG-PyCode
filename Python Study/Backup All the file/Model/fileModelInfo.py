@@ -1,6 +1,6 @@
 import datetime
 import os
-class fileModelInfo:
+class FileModelInfo:
     def __init__(self):
         self.FullName = ''
         self.Descr = ''

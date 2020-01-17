@@ -1,7 +1,7 @@
 import sys
 import copy
 sys.path.append('..\\Model')
-from fileModelInfo import fileModelInfo
+from FileModelInfo import FileModelInfo
 from FillerBase import FillerBase
 import os
 
@@ -9,7 +9,7 @@ class FillerFileNumber(FillerBase):
     def ExcuteFiller(self):
         for l in self.FileFullNamesIn:
             listIn = l.ListIn
-            model = fileModelInfo()
+            model = FileModelInfo()
             model.Clone(l)
             if(l.CopyNumber ==-1):  #-1就是全部拷贝
                 model._fileFullNamesOut = listIn
