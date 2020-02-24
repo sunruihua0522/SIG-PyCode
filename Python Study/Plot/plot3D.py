@@ -13,6 +13,6 @@ r = z**3 + 1
 x = r*np.sin(t)
 y = r*np.cos(t)
 
-ax.plot(x,y,z,label = 'sprial')
-ax.legend()
+ax.plot(x,y,z,label = 'sprial');
+
 plt.show()

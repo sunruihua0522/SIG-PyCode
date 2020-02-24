@@ -16,6 +16,12 @@ class People:
 
     def dispCount(self):
         print('People count is %d, Child number is %d' %(People.Number,People.ChildNumber))
+class A():
+    def eat(self):
+        print('A eat')
+class B():
+    def eat(self):
+        print('B eat')
 
 if __name__=='__main__':
     P1= People('HuaGe',10000)
@@ -41,4 +47,12 @@ if __name__=='__main__':
     except:
         print('没有Address这个属性')
 
+    '''类可以作为对象'''
+    an_list = []
+    an_list.append(A)
+    an_list.append(B)
+
+    for l in an_list:
+        print(l().eat())
     exit(0)
+

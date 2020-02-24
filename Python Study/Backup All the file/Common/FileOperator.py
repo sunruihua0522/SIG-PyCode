@@ -23,7 +23,16 @@ class FileOperator:
         shutil.copy(filePathSrc,filePathDes)
     @staticmethod
     def copyFilesToFolder(fileModelInfoList):
-        for model in tqdm(fileModelInfoList):
-            if(not os.path.exists(model.PathDes)):
-                os.makedirs(model.PathDes)
-            FileOperator.copyFile(model.FullName,model.PathDes)
+        for l in fileModelInfoList:
+            if (not os.path.exists(l.PathDes)):
+                os.makedirs(l.PathDes)
+            if (l.IsFile()):
+                FileOperator.copyFile(l.FullName,os.path.join(l.PathDes,l.GetTailName()))
+            else:
+                for mm in tqdm(l.ListIn,ncols = 50):
+                    if(mm.IsFile()):
+                        FileOperator.copyFile(mm.FullName, os.path.join(l.PathDes, mm.GetTailName()))
+                    else:
+                        shutil.copytree(mm.FullName,os.path.join(l.PathDes,mm.GetTailName()))
+
+

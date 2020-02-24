@@ -3,14 +3,14 @@ import datetime
 import copy
 import sys
 sys.path.append('..\\Model')
-from fileModelInfo import fileModelInfo
+from FileModelInfo import FileModelInfo
 
 class FillerTime(FillerBase):
     def ExcuteFiller(self):
         now = datetime.datetime.now()
         for l in self.FileFullNamesIn:
             listIn = l.ListIn
-            model = fileModelInfo()
+            model = FileModelInfo()
             model.Clone(l)
             if(l.Time ==-1):  #-1就是全部拷贝
                 model._fileFullNamesOut = listIn.copy()

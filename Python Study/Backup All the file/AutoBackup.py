@@ -8,6 +8,7 @@ from FileOperator import FileOperator
 from FillerTime import FillerTime
 from FillerFileNumber import FillerFileNumber
 from ZipFile import ZipFile
+import tqdm
 
 if __name__ == '__main__':
     L = FileModelMgr.getAllFileInfo('File copy list.xlsx')
@@ -17,10 +18,14 @@ if __name__ == '__main__':
     NeedZipList = list(filter(lambda x: x.Zip == True,L2))
     NotZipList = list(filter(lambda x: x.Zip == False,L2))
 
+    print('CopyFiles, Please wait......')
     FileOperator.copyFilesToFolder(NotZipList)
+
+    print('Compress files, Please wait......')
     ZipFile.ZipFile(NeedZipList)
 
-    print('done')
+    input('Press any key to exit......')
+    exit()
 
 
 
