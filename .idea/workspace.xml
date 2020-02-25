@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="178c578c-f32f-425a-bf25-634f16ad8bf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python Study/Design pattern/OberserverPattern/Client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Study/Design pattern/OberserverPattern/DataModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Study/Design pattern/OberserverPattern/OberserverBase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Study/Design pattern/OberserverPattern/PublisherBase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Study/Design pattern/OberserverPattern/WechatAccount.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Study/Design pattern/OberserverPattern/WechatClientA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Study/Design pattern/OberserverPattern/WechatClientB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/Web1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Study/Design pattern/StatePattern/Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Study/Design pattern/StatePattern/Client.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/Python Study/Design pattern/StatePattern1/Client.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -62,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/Python Study/Design pattern/OberserverPattern/Client.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
-              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -71,19 +64,28 @@
         <entry file="file://$PROJECT_DIR$/Python Study/Design pattern/StatePattern1/S1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="400">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python Study/Design pattern/Memo mode/Client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python Study/Design pattern/Memo mode/Client.py">
+        <entry file="file://$PROJECT_DIR$/Web/Web1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="125">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -93,15 +95,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
               <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python Study/Design pattern/OberserverPattern/PublisherBase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -128,7 +121,7 @@
         <entry file="file://$PROJECT_DIR$/Python Study/Design pattern/StatePattern1/S5.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -178,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python Study/Backup All the file/Filler/FillerAll.py" />
         <option value="$PROJECT_DIR$/Python Study/Backup All the file/Filler/FillerTIme.py" />
         <option value="$PROJECT_DIR$/Python Study/Backup All the file/Filler/FillerZip.py" />
         <option value="$PROJECT_DIR$/Python Study/Backup All the file/fileModelInfo.py" />
@@ -229,6 +221,7 @@
         <option value="$PROJECT_DIR$/Python Study/Design pattern/OberserverPattern/PublisherBase.py" />
         <option value="$PROJECT_DIR$/Python Study/Design pattern/StatePattern/Client.py" />
         <option value="$PROJECT_DIR$/Python Study/Design pattern/OberserverPattern/Client.py" />
+        <option value="$PROJECT_DIR$/Web/Web1.py" />
       </list>
     </option>
   </component>
@@ -256,25 +249,7 @@
             <path>
               <item name="PyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="PyCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Python Study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PyCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PyCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Python Study" type="462c0819:PsiDirectoryNode" />
-              <item name="Plot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PyCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PyCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Python Study" type="462c0819:PsiDirectoryNode" />
-              <item name="Reg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PyCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PyCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Python Study" type="462c0819:PsiDirectoryNode" />
-              <item name="TestOOP" type="462c0819:PsiDirectoryNode" />
+              <item name="Web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PyCode" type="b2602c69:ProjectViewProjectNode" />
@@ -327,29 +302,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Client (3)">
-    <configuration name="Client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PyCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Study/Design pattern/StatePattern" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Study/Design pattern/StatePattern/Client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Web1">
     <configuration name="Client (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -435,6 +388,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Web1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PyCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Web/Web1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="PyCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -459,11 +431,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Web1" />
         <item itemvalue="Python.Client (3)" />
         <item itemvalue="Python.Client (2)" />
         <item itemvalue="Python.S4" />
         <item itemvalue="Python.S1" />
-        <item itemvalue="Python.Client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -580,7 +552,7 @@
       <workItem from="1582589158198" duration="1362000" />
       <workItem from="1582596525116" duration="1991000" />
       <workItem from="1582604290942" duration="4207000" />
-      <workItem from="1582610351294" duration="2892000" />
+      <workItem from="1582610351294" duration="5711000" />
     </task>
     <task id="LOCAL-00001" summary="测试了math库的一些函数">
       <created>1567298668480</created>
@@ -869,11 +841,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582608491749</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="观察者模式">
+      <created>1582613276476</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1582613276477</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="399182000" />
+    <option name="totallyTimeSpent" value="402001000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -888,7 +867,7 @@
     <frame x="-8" y="-8" width="1642" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15762925" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15762925" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -902,8 +881,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.56023455" weight="0.51654845" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.33351064" side_tool="true" weight="0.35167205" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.6119403" weight="0.28385416" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.66648936" weight="0.5049628" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.6119403" weight="0.2828784" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.66648936" visible="true" weight="0.5049628" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -926,7 +905,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="试了一下selenium还是很好用的工具" />
     <MESSAGE value="动态抓取js或者ajax动态生成的数据，还没有在hrss中成功" />
     <MESSAGE value="测试了连接SQL数据库，成功连接" />
     <MESSAGE value="安装Django" />
@@ -951,7 +929,8 @@
     <MESSAGE value="新增Pygame" />
     <MESSAGE value="增加观察者模式" />
     <MESSAGE value="状态模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="状态模式" />
+    <MESSAGE value="观察者模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="观察者模式" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PyCode$1_1__1_.coverage" NAME="1.1 (1) Coverage Results" MODIFIED="1566913663896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt" />
@@ -963,13 +942,6 @@
     <SUITE FILE_PATH="coverage/PyCode$1_2.coverage" NAME="1.2 Coverage Results" MODIFIED="1566981756147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python Study/Django/HelloWorld.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/email/message.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -1286,14 +1258,14 @@
     <entry file="file://$PROJECT_DIR$/Python Study/Design pattern/OberserverPattern/Client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python Study/Design pattern/StatePattern1/Client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
@@ -1324,24 +1296,31 @@
     <entry file="file://$PROJECT_DIR$/Python Study/Design pattern/StatePattern1/S5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python Study/Design pattern/StatePattern1/S1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python Study/Design pattern/Memo mode/Client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="250">
+          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Web1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
