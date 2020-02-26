@@ -7,3 +7,5 @@ for v in dic.values():
     print(v)
 for k,v in dic.items():
     print(k,'------------',v)
+
+

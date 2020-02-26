@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <table border="1">
+        {% for k,v in infos.items()%}
+        <tr>
+            <td width="400">{{k}}</td>
+            <td width="400">{{v}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
