@@ -22,7 +22,7 @@ db.create_all()
 
 
 @app.route('/Query/',methods=['POST','GET'])
-def index():
+def Query():
     # #新增
     # blog = Blog(title="first blog",content="this is my first blog")
     # db.session.add(blog)
@@ -52,15 +52,17 @@ def index():
 def Add():
     if (request.method == 'POST'):
         # 新增
-        blog = Blog(title=request.form['Title'], content=request.form['Content'])
-        db.session.add(blog)
-        db.session.commit()
+        if((request.form['Title']!=None ) and request.form['Content']!=None):
+            blog = Blog(title=request.form['Title'], content=request.form['Content'])
+            db.session.add(blog)
+            db.session.commit()
     else:
         # 新增
-        blog = Blog(title=request.args.get('Title'), content=request.args.get('Content'))
-        db.session.add(blog)
-        db.session.commit()
+        if ((request.args.get('Title') != None) and request.args.get('Content') != None):
+            blog = Blog(title=request.args.get('Title'), content=request.args.get('Content'))
+            db.session.add(blog)
+            db.session.commit()
     return render_template('add.html')
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)

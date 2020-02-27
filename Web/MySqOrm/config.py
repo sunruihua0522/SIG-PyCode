@@ -3,10 +3,10 @@ DEBUG = True
 DIALECT = 'mysql'
 DRIVER='pymysql'
 USERNAME = 'root'
-PASSWORD = 'sMx141110~'
+PASSWORD = 'srh4943868'
 HOST = '127.0.0.1'
 PORT = 3306
-DATABASE = 'testforwindows'
+DATABASE = 'RickyDB'
 
 #dialect+driver://root:1q2w3e4r5t@127.0.0.1:3306/dbname?charset=UTF8MB4
 SQLALCHEMY_DATABASE_URI = "{}+{}://{}:{}@{}:{}/{}?charset=UTF8MB4".format(DIALECT,DRIVER,USERNAME,PASSWORD,HOST,PORT,DATABASE)
