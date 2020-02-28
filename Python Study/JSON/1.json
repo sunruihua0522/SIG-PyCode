@@ -1,0 +1,740 @@
+{
+  "data": [
+    {
+      "p": "/System/CMS-Core",
+      "v": {
+        "data": [
+          {
+            "machines": [
+              {
+                "machine": "L3_ACS",
+                "variables": {
+                  "Exception AML revision HMI": "2_14_08_2018",
+                  "HMI project revision": "101.0.11.5",
+                  "Machine number": "ACS838351004",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "101.0.11.5"
+                }
+              },
+              {
+                "machine": "L3_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "2.58",
+                  "HMI project revision": "1.543.14",
+                  "Machine number": "CFA874151002",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "4.0.3.0"
+                }
+              },
+              {
+                "machine": "L4_ACS",
+                "variables": {
+                  "Exception AML revision HMI": "2_14_08_2018",
+                  "HMI project revision": "101.0.11.5",
+                  "Machine number": "ACS838351001",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "101.0.11.5"
+                }
+              },
+              {
+                "machine": "L4_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "2.58",
+                  "HMI project revision": "1.543.14",
+                  "Machine number": "CFA874151008",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "4.0.3.0"
+                }
+              }
+            ],
+            "online": true,
+            "site": "CLA001-Yili-Jinan"
+          },
+          {
+            "machines": [
+              {
+                "machine": "CFA874251001",
+                "variables": {
+                  "Exception AML revision HMI": "2.58",
+                  "HMI project revision": "1.543.5",
+                  "Machine number": "CFA874251001",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "4.0.1.0"
+                }
+              },
+              {
+                "machine": "L1_ACR",
+                "variables": {
+                  "Exception AML revision HMI": "20192210",
+                  "HMI project revision": "2.1.4.0",
+                  "Machine number": "ACR838451003",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "2.1.4.0"
+                }
+              },
+              {
+                "machine": "L1_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "2.58",
+                  "HMI project revision": "1.543.5",
+                  "Machine number": "CFA874251001",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "4.0.1.0"
+                }
+              }
+            ],
+            "online": true,
+            "site": "CLA002-Mengniu-Hengshui"
+          },
+          {
+            "machines": [
+              {
+                "machine": "L7_ACR",
+                "variables": {
+                  "Exception AML revision HMI": "20192612",
+                  "HMI project revision": "2.1.7.0",
+                  "Machine number": "ACR838451005",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "2.1.7.0"
+                }
+              },
+              {
+                "machine": "L7_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "2.66.1.0",
+                  "HMI project revision": "1.568.0",
+                  "Machine number": "CFA874151004",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "104.1.4.0"
+                }
+              },
+              {
+                "machine": "L8_ACR",
+                "variables": {
+                  "Exception AML revision HMI": "20192612",
+                  "HMI project revision": "2.1.7.0",
+                  "Machine number": "ACR838451004",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "2.1.7.0"
+                }
+              },
+              {
+                "machine": "L8_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "2.66.1.0",
+                  "HMI project revision": "1.568.0",
+                  "Machine number": "CFA874151005",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "104.1.4.0"
+                }
+              }
+            ],
+            "online": true,
+            "site": "CLA003-Yili-Hefei"
+          },
+          {
+            "machines": [
+              {
+                "machine": "L1_ACS",
+                "variables": {
+                  "Exception AML revision HMI": "20190102",
+                  "HMI project revision": "2.0.0.4",
+                  "Machine number": "ACS838351003",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "2.0.0.4"
+                }
+              },
+              {
+                "machine": "L1_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "2.58",
+                  "HMI project revision": "1.543.5",
+                  "Machine number": "CFA874151007",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "4.0.1.0"
+                }
+              },
+              {
+                "machine": "L2_ACS",
+                "variables": {
+                  "Exception AML revision HMI": "20190102",
+                  "HMI project revision": "2.0.0.4",
+                  "Machine number": "ACS838351007",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "2.0.0.4"
+                }
+              },
+              {
+                "machine": "L2_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "2.58",
+                  "HMI project revision": "1.543.5",
+                  "Machine number": "CFA874151009",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "4.0.1.0"
+                }
+              }
+            ],
+            "online": true,
+            "site": "CLA004-Mengniu-Baoding"
+          },
+          {
+            "machines": [
+              {
+                "machine": "L1_ACS",
+                "variables": {
+                  "Exception AML revision HMI": "20190102",
+                  "HMI project revision": "2.0.0.4",
+                  "Machine number": "ACS838351006",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "2.0.0.4"
+                }
+              },
+              {
+                "machine": "L1_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "1.342.3",
+                  "HMI project revision": "1.458.7",
+                  "Machine number": "CFA874151006",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "3.2.0.81"
+                }
+              },
+              {
+                "machine": "L2_ACS",
+                "variables": {
+                  "Exception AML revision HMI": "20190102",
+                  "HMI project revision": "2.0.0.4",
+                  "Machine number": "ACS838351002",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "2.0.0.4"
+                }
+              },
+              {
+                "machine": "L2_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "1.342.3",
+                  "HMI project revision": "1.458.7",
+                  "Machine number": "CFA874151003",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "3.2.0.8"
+                }
+              }
+            ],
+            "online": false,
+            "site": "CLA005-Yili-Ningxia"
+          },
+          {
+            "machines": [
+              {
+                "machine": "L1_ACS",
+                "variables": {
+                  "Exception AML revision HMI": "20190102",
+                  "HMI project revision": "2.0.0.4",
+                  "Machine number": "ACS838351008",
+                  "PLC online change counter": 1,
+                  "PLC project revision": "2.0.0.4"
+                }
+              },
+              {
+                "machine": "L1_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "2.58",
+                  "HMI project revision": "1.543.14",
+                  "Machine number": "CFA874151010",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "4.0.5.0"
+                }
+              },
+              {
+                "machine": "L2_ACS",
+                "variables": {
+                  "Exception AML revision HMI": "20190102",
+                  "HMI project revision": "2.0.0.4",
+                  "Machine number": "ACS838351009",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "2.0.0.4"
+                }
+              },
+              {
+                "machine": "L2_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "2.58",
+                  "HMI project revision": "1.543.14",
+                  "Machine number": "CFA874151011",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "4.0.5.0"
+                }
+              }
+            ],
+            "online": false,
+            "site": "CLA006-Mengniu-Baoji"
+          },
+          {
+            "machines": [
+              {
+                "machine": "L1_ACS",
+                "variables": {
+                  "Exception AML revision HMI": "20190102",
+                  "HMI project revision": "2.0.0.4",
+                  "Machine number": "ACS838351011",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "2.0.0.4"
+                }
+              },
+              {
+                "machine": "L1_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "2.58",
+                  "HMI project revision": "1.543.0",
+                  "Machine number": "CFA874151013",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "4.0.0.0"
+                }
+              }
+            ],
+            "online": true,
+            "site": "CLA007-Mengniu-Tangshan"
+          },
+          {
+            "machines": [
+              {
+                "machine": "L1_ACR",
+                "variables": {
+                  "Exception AML revision HMI": "20192210",
+                  "HMI project revision": "2.1.4.0",
+                  "Machine number": "ACR838451001",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "2.1.4.0"
+                }
+              },
+              {
+                "machine": "L1_ACS",
+                "variables": {
+                  "Exception AML revision HMI": "no value in history",
+                  "HMI project revision": "no value in history",
+                  "Machine number": "no value in history",
+                  "PLC online change counter": "no value in history",
+                  "PLC project revision": "no value in history"
+                }
+              },
+              {
+                "machine": "L1_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "2.71",
+                  "HMI project revision": "1.599",
+                  "Machine number": "CFA874151014",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "104.1.0.0|SVN: 4642M"
+                }
+              },
+              {
+                "machine": "L2_ACR",
+                "variables": {
+                  "Exception AML revision HMI": "20192210",
+                  "HMI project revision": "2.1.4.0",
+                  "Machine number": "ACR838451007",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "2.1.4.0"
+                }
+              },
+              {
+                "machine": "L2_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "2.71",
+                  "HMI project revision": "1.599",
+                  "Machine number": "CFA874251006",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "104.1.0.0|SVN: 4642M"
+                }
+              }
+            ],
+            "online": true,
+            "site": "CLA008-SIG-Suzhou"
+          },
+          {
+            "machines": [
+              {
+                "machine": "L8_ACR",
+                "variables": {
+                  "Exception AML revision HMI": "100.5.0.52",
+                  "HMI project revision": "2.1.1.0",
+                  "Machine number": "ACR838451022",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "2.1.1.0"
+                }
+              },
+              {
+                "machine": "L8_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "2.58",
+                  "HMI project revision": "1.543.14",
+                  "Machine number": "CFA874251003",
+                  "PLC online change counter": 1,
+                  "PLC project revision": "4.0.4.0"
+                }
+              },
+              {
+                "machine": "L9_ACR",
+                "variables": {
+                  "Exception AML revision HMI": "100.5.0.52",
+                  "HMI project revision": "2.1.1.0",
+                  "Machine number": "ACR838451006",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "2.1.1.0"
+                }
+              },
+              {
+                "machine": "L9_ACS",
+                "variables": {
+                  "Exception AML revision HMI": "06_2018",
+                  "HMI project revision": "101.1.0.10",
+                  "Machine number": "ACS838351010",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "101.1.0.10"
+                }
+              },
+              {
+                "machine": "L9_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "2.58",
+                  "HMI project revision": "1.543.14",
+                  "Machine number": "CFA874151012",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "4.0.4.0"
+                }
+              }
+            ],
+            "online": true,
+            "site": "CLA009-Steuben-East-Aurora"
+          },
+          {
+            "machines": [
+              {
+                "machine": "L13_ACS",
+                "variables": {
+                  "Exception AML revision HMI": "20190102",
+                  "HMI project revision": "2.0.0.4",
+                  "Machine number": "ACS838351016",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "2.0.0.4"
+                }
+              },
+              {
+                "machine": "L13_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "2.58",
+                  "HMI project revision": "1.543.14",
+                  "Machine number": "CFA874151018",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "4.0.5.0"
+                }
+              },
+              {
+                "machine": "L14_ACS",
+                "variables": {
+                  "Exception AML revision HMI": "20190102",
+                  "HMI project revision": "2.0.0.4",
+                  "Machine number": "ACS838351017",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "2.0.0.4"
+                }
+              },
+              {
+                "machine": "L14_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "2.58",
+                  "HMI project revision": "1.543.14",
+                  "Machine number": "CFA874151019",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "4.0.5.0"
+                }
+              }
+            ],
+            "online": true,
+            "site": "CLA010-Yili-Jinchuan"
+          },
+          {
+            "machines": [
+              {
+                "machine": "Li_ACS",
+                "variables": {
+                  "Exception AML revision HMI": "20190102",
+                  "HMI project revision": "2.0.0.4",
+                  "Machine number": "ACS838351014",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "2.0.0.4"
+                }
+              },
+              {
+                "machine": "Li_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "1.342.3",
+                  "HMI project revision": "1.458.7",
+                  "Machine number": "CFA874151016",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "3.2.0.8"
+                }
+              }
+            ],
+            "online": false,
+            "site": "CLA011-Mengniu-Wuhan"
+          },
+          {
+            "machines": [
+              {
+                "machine": "L1_ACS",
+                "variables": {
+                  "Exception AML revision HMI": "12.10.2018",
+                  "HMI project revision": "101.1.0.0",
+                  "Machine number": "ACS838351020",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "101.1.0.1"
+                }
+              },
+              {
+                "machine": "L1_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "2.58",
+                  "HMI project revision": "1.543.14",
+                  "Machine number": "CFA874151022",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "4.0.5.0"
+                }
+              }
+            ],
+            "online": true,
+            "site": "CLA012-GoodFriend-XiNing"
+          },
+          {
+            "machines": [
+              {
+                "machine": "L1_ACR",
+                "variables": {
+                  "Exception AML revision HMI": "20192210",
+                  "HMI project revision": "2.1.4.0",
+                  "Machine number": "ACR838451011",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "2.1.4.0"
+                }
+              },
+              {
+                "machine": "L1_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "2.58",
+                  "HMI project revision": "1.543.5",
+                  "Machine number": "CFA874251004",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "4.0.1.0"
+                }
+              },
+              {
+                "machine": "L2_ACR",
+                "variables": {
+                  "Exception AML revision HMI": "20192210",
+                  "HMI project revision": "2.1.4.0",
+                  "Machine number": "ACR838451010",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "2.1.4.0"
+                }
+              },
+              {
+                "machine": "L2_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "2.58",
+                  "HMI project revision": "1.543.5",
+                  "Machine number": "CFA874251002",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "4.0.1.0"
+                }
+              }
+            ],
+            "online": true,
+            "site": "CLA013-Mengniu-Suqian"
+          },
+          {
+            "machines": [
+              {
+                "machine": "L13_ACR",
+                "variables": {
+                  "Exception AML revision HMI": "20192612",
+                  "HMI project revision": "2.1.7.0",
+                  "Machine number": "ACR838451012",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "2.1.7.0"
+                }
+              },
+              {
+                "machine": "L13_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "2.58",
+                  "HMI project revision": "1.543.14",
+                  "Machine number": "CFA874151020",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "4.0.5.0"
+                }
+              },
+              {
+                "machine": "L14_ACR",
+                "variables": {
+                  "Exception AML revision HMI": "20192612",
+                  "HMI project revision": "2.1.7.0",
+                  "Machine number": "ACR838451009",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "2.1.7.0"
+                }
+              },
+              {
+                "machine": "L14_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "2.58",
+                  "HMI project revision": "1.543.14",
+                  "Machine number": "CFA874151021",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "4.0.5.0"
+                }
+              }
+            ],
+            "online": true,
+            "site": "CLA014-Yili-Huanggang"
+          },
+          {
+            "machines": [
+              {
+                "machine": "L1_ACS",
+                "variables": {
+                  "Exception AML revision HMI": "2019062201",
+                  "HMI project revision": "2.0.0.3",
+                  "Machine number": "ACS838351013",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "2.0.0.3"
+                }
+              },
+              {
+                "machine": "L1_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "2.58",
+                  "HMI project revision": "1.543.14",
+                  "Machine number": "CFA874151015",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "4.0.4.0"
+                }
+              }
+            ],
+            "online": true,
+            "site": "CLA016-PioneerFoods-Johannesburg"
+          },
+          {
+            "machines": [
+              {
+                "machine": "L1_ACR",
+                "variables": {
+                  "Exception AML revision HMI": "no value in history",
+                  "HMI project revision": "no value in history",
+                  "Machine number": "no value in history",
+                  "PLC online change counter": "no value in history",
+                  "PLC project revision": "no value in history"
+                }
+              },
+              {
+                "machine": "L1_ACS",
+                "variables": {
+                  "Exception AML revision HMI": "no value in history",
+                  "HMI project revision": "no value in history",
+                  "Machine number": "no value in history",
+                  "PLC online change counter": "no value in history",
+                  "PLC project revision": "no value in history"
+                }
+              },
+              {
+                "machine": "L1_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "no value in history",
+                  "HMI project revision": "no value in history",
+                  "Machine number": "no value in history",
+                  "PLC online change counter": "no value in history",
+                  "PLC project revision": "no value in history"
+                }
+              },
+              {
+                "machine": "L2_ACR",
+                "variables": {
+                  "Exception AML revision HMI": "no value in history",
+                  "HMI project revision": "no value in history",
+                  "Machine number": "no value in history",
+                  "PLC online change counter": "no value in history",
+                  "PLC project revision": "no value in history"
+                }
+              },
+              {
+                "machine": "L2_ACS",
+                "variables": {
+                  "Exception AML revision HMI": "no value in history",
+                  "HMI project revision": "no value in history",
+                  "Machine number": "no value in history",
+                  "PLC online change counter": "no value in history",
+                  "PLC project revision": "no value in history"
+                }
+              },
+              {
+                "machine": "L2_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "no value in history",
+                  "HMI project revision": "no value in history",
+                  "Machine number": "no value in history",
+                  "PLC online change counter": "no value in history",
+                  "PLC project revision": "no value in history"
+                }
+              }
+            ],
+            "online": false,
+            "site": "CLA017-Yili-Xianyang"
+          },
+          {
+            "machines": [
+              {
+                "machine": "L2_ACS",
+                "variables": {
+                  "Exception AML revision HMI": "20190102",
+                  "HMI project revision": "2.0.0.4",
+                  "Machine number": "ACS838351015",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "2.0.0.4"
+                }
+              },
+              {
+                "machine": "L2_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "2.58",
+                  "HMI project revision": "1.543.5",
+                  "Machine number": "CFA874151017",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "4.0.1.0"
+                }
+              }
+            ],
+            "online": false,
+            "site": "CLA018-Mengniu-Jiaozuo"
+          },
+          {
+            "machines": [
+              {
+                "machine": "L1_COMBISMILE",
+                "variables": {
+                  "Exception AML revision HMI": "2.58",
+                  "HMI project revision": "1.543.14",
+                  "Machine number": "CFA874151023",
+                  "PLC online change counter": 0,
+                  "PLC project revision": "4.0.4.0"
+                }
+              }
+            ],
+            "online": true,
+            "site": "CLA021-Mengniu-MaAnShan"
+          }
+        ]
+      },
+      "q": 0
+    }
+  ]
+}

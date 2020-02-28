@@ -3,16 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Add</title>
+    <link rel="stylesheet" type="text/css" href="MyCss.css"></link>
 </head>
 <body>
-    <form action="http://122.51.200.62:5000/Add/" method="post">
-        <p>Title: <input type="text" name="Title" value=""></p>
-        <p>Content: <input type="text" name="Content" value=""></p>
-        <p><input type="submit" value="Submit"></p>
-    </form>
+    <div class="div_head"> 信息录入查询系统</div>
+    <div class="div_content">
+        <form action="http://122.51.200.62:5000/Add/" method="post">
+            <table>
+                <tr>
+                    <td class="td_title">Title:</td>
+                    <td><input class="input_title" placeholder="请输入标题" type="text" name="Title"></td>
+                </tr>
+                <tr>
+                    <td align="top" class="td_content">Content:</td>
+                    <td><textarea class="input_content" draggable="false" placeholder="请输入内容" type="text" name="Content"></textarea></td>
+                </tr>
+                <tr>
+                    <td/>
+                    <td align="left">
+                        <input class="add" type="submit" value="提交">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <form action="http://122.51.200.62:5000/Query/" method="post">
+            <p><input class="query" type="submit" value="查看记录"></p>
+        </form>
 
-    <form action="http://122.51.200.62:5000/Query/" method="post">
-        <p><input type="submit" value="Query"></p>
-    </form>
+    </div>
+
+    <div class="div_footer">
+        深圳市赚他一个亿有限责任公司
+    </div>
 </body>
 </html>

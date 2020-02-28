@@ -1,0 +1,59 @@
+boday,html,div{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.div_head{
+    background: lightskyblue;
+    height: 70px;
+    color: black;
+    text-align: center;
+    font-size: 55px;
+}
+.div_content{
+    height: 100%;
+}
+.td_title,.td_content{
+    font-size: 30px;
+    text-align: left;
+}
+.input_title{
+    border-radius: 5px;
+     height: 40px;
+    font-size: 30px;
+     width: 900px;
+     border-style: solid;
+     border-color: lightskyblue;
+ }
+.input_content{
+    border-radius: 5px;
+    font-size: 30px;
+     height: 300px;
+     width: 900px;
+     border-style: solid;
+     border-color: lightskyblue;
+    resize: none;
+ }
+.add{
+    width: 200px;
+    font-size: 30px;
+    background: lightskyblue;
+    border-radius: 5px;
+    height: 60px;
+}
+.query{
+   width: 200px;
+    font-size: 30px;
+    background: lightskyblue;
+    border-radius: 5px;
+    height: 60px;
+}
+.div_footer{
+    height: 30px;
+    font-size: 20px;
+    text-align: right;
+    background: lightskyblue;
+}
+
+

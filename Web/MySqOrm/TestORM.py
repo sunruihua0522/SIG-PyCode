@@ -50,19 +50,23 @@ def Query():
 
 @app.route('/Add/', methods=['POST','GET'])
 def Add():
+    blog = Blog(title = '', content = '')
     if (request.method == 'POST'):
         # 新增
         if((request.form['Title']!=None ) and request.form['Content']!=None):
             blog = Blog(title=request.form['Title'], content=request.form['Content'])
             db.session.add(blog)
             db.session.commit()
+            return render_template('add.html')
     else:
         # 新增
         if ((request.args.get('Title') != None) and request.args.get('Content') != None):
             blog = Blog(title=request.args.get('Title'), content=request.args.get('Content'))
             db.session.add(blog)
             db.session.commit()
-    return render_template('add.html')
+            return render_template('add.html')
+
+    return '添加失败，请检查Title或者Content是否为空'
 
 # if __name__ == '__main__':
 #     app.run(debug=True)

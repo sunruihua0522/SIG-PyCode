@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="178c578c-f32f-425a-bf25-634f16ad8bf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Web/MySqOrm/Manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/MySqOrm/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Study/JSON/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Study/JSON/GetInfoFromJson.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/MySqOrm/templates/MyCss.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/MySqOrm/TestORM.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/MySqOrm/TestORM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/MySqOrm/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/MySqOrm/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/MySqOrm/templates/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/Web/MySqOrm/templates/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/MySqOrm/templates/query.html" beforeDir="false" afterPath="$PROJECT_DIR$/Web/MySqOrm/templates/query.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,22 +33,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Web/MySqOrm/TestORM.py">
+        <entry file="file://$PROJECT_DIR$/Python Study/JSON/GetInfoFromJson.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="51" column="10" lean-forward="true" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+            <state relative-caret-position="150">
+              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Web/TestForDisk/config.ini">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Web/MySqOrm/templates/MyCss.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="14" selection-start-line="14" selection-end-line="32" selection-end-column="20" />
+            <state relative-caret-position="175">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -55,31 +56,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Web/MySqOrm/config.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="400">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Web/TestForDisk/Manager.py">
+        <entry file="file://$PROJECT_DIR$/Python Study/Excel/ExcelWrite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-              <folding>
-                <element signature="e#127#166#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="200">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Web/MySqOrm/Manager.py">
+        <entry file="file://$PROJECT_DIR$/Python Study/JSON/1.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            <state relative-caret-position="208">
+              <caret line="286" column="26" selection-start-line="286" selection-start-column="17" selection-end-line="286" selection-end-column="26" />
               <folding>
-                <element signature="e#127#166#0" expanded="true" />
+                <element signature="e#92#1785#0" />
+                <element signature="e#1797#3087#0" />
+                <element signature="e#3099#4782#0" />
+                <element signature="e#4794#6470#0" />
+                <element signature="e#6482#8163#0" />
+                <element signature="e#8175#9852#0" />
               </folding>
             </state>
           </provider>
@@ -88,17 +91,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Web/MySqOrm/templates/query.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            <state relative-caret-position="75">
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Web/MySqOrm/templates/add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+            <state relative-caret-position="-97">
+              <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -136,8 +139,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -177,8 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python Study/Design pattern/StatePattern/Context.py" />
-        <option value="$PROJECT_DIR$/Python Study/Design pattern/StatePattern/StateBase.py" />
         <option value="$PROJECT_DIR$/Python Study/Design pattern/StatePattern1/Context.py" />
         <option value="$PROJECT_DIR$/Python Study/Design pattern/StatePattern1/StateBase.py" />
         <option value="$PROJECT_DIR$/Python Study/Design pattern/StatePattern1/S5.py" />
@@ -222,20 +224,22 @@
         <option value="$PROJECT_DIR$/Python Study/MySqOrm/TestORM.py" />
         <option value="$PROJECT_DIR$/Web/MySqOrm/Settings.py" />
         <option value="$PROJECT_DIR$/Web/MySqOrm/models.py" />
-        <option value="$PROJECT_DIR$/Web/MySqOrm/templates/query.html" />
         <option value="$PROJECT_DIR$/Web/MySqOrm/Manager.py" />
         <option value="$PROJECT_DIR$/Web/MySqOrm/config.ini" />
         <option value="$PROJECT_DIR$/Web/MySqOrm/config.py" />
         <option value="$PROJECT_DIR$/Web/MySqOrm/TestORM.py" />
+        <option value="$PROJECT_DIR$/Python Study/JSON/GetInfoFromJson.py" />
+        <option value="$PROJECT_DIR$/Web/MySqOrm/templates/query.html" />
         <option value="$PROJECT_DIR$/Web/MySqOrm/templates/add.html" />
+        <option value="$PROJECT_DIR$/Web/MySqOrm/templates/MyCss.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="357" />
-    <option name="y" value="31" />
-    <option name="width" value="1563" />
-    <option name="height" value="926" />
+    <option name="x" value="-7" />
+    <option name="y" value="2" />
+    <option name="width" value="1157" />
+    <option name="height" value="818" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -245,7 +249,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,12 +270,6 @@
               <item name="PyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="PyCode" type="462c0819:PsiDirectoryNode" />
               <item name="Web" type="462c0819:PsiDirectoryNode" />
-              <item name="Http Method" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PyCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PyCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Web" type="462c0819:PsiDirectoryNode" />
               <item name="MySqOrm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -282,25 +279,11 @@
               <item name="MySqOrm" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PyCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PyCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Web" type="462c0819:PsiDirectoryNode" />
-              <item name="TestForDisk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PyCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="PyCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,23 +291,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Web/MySqOrm" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\PyCode\Python Study\JSON" />
+      <recent name="D:\Code\PyCode\Web" />
+      <recent name="D:\Code\PyCode\Web\Form" />
+      <recent name="D:\Code\PyCode\Web\HelloWorld" />
+      <recent name="D:\Code\PyCode\Web\Template\templates" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Code\PyCode\Web\MySqOrm" />
       <recent name="D:\Code\PyCode\Python Study\PyGame" />
       <recent name="D:\Code\PyCode\Python Study\Email" />
       <recent name="D:\Code\PyCode\Python Study\Language Merge" />
       <recent name="D:\Code\PyCode\Python Study\Docx" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\PyCode\Web" />
-      <recent name="D:\Code\PyCode\Web\Form" />
-      <recent name="D:\Code\PyCode\Web\HelloWorld" />
-      <recent name="D:\Code\PyCode\Web\Template\templates" />
-      <recent name="D:\Code\PyCode\Web\Template" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -339,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TestORM">
+  <component name="RunManager" selected="Python.GetInfoFromJson">
     <configuration name="Comment" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -366,6 +350,9 @@
       <module name="PyCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Study" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -373,6 +360,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Study/Delete register info Navicat.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GetInfoFromJson" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PyCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Study/JSON" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Study/JSON/GetInfoFromJson.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -407,6 +413,9 @@
       <module name="PyCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web/MySqOrm" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -444,35 +453,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="login (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PyCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web/StaticFile" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Web/StaticFile/login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.GetInfoFromJson" />
         <item itemvalue="Python.TestORM" />
         <item itemvalue="Python.Delete register info Navicat" />
         <item itemvalue="Python.Login" />
         <item itemvalue="Python.Comment" />
-        <item itemvalue="Python.login (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -597,7 +584,11 @@
       <workItem from="1582684836894" duration="530000" />
       <workItem from="1582685494692" duration="16463000" />
       <workItem from="1582722033760" duration="5104000" />
-      <workItem from="1582761264042" duration="11859000" />
+      <workItem from="1582761264042" duration="12057000" />
+      <workItem from="1582794783011" duration="221000" />
+      <workItem from="1582813884721" duration="1011000" />
+      <workItem from="1582851518914" duration="103000" />
+      <workItem from="1582864130953" duration="11077000" />
     </task>
     <task id="LOCAL-00001" summary="测试了math库的一些函数">
       <created>1567298668480</created>
@@ -928,11 +919,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582789972699</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="将数据库增删查改上传到了云服务器">
+      <created>1582792789367</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1582792789367</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="449451000" />
+    <option name="totallyTimeSpent" value="462061000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -944,10 +942,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="357" y="31" width="1563" height="926" extended-state="0" />
+    <frame x="-7" y="2" width="1157" height="818" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21366954" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21798365" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -962,13 +960,13 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.33351064" side_tool="true" weight="0.35167205" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.6119403" weight="0.29736513" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.66648936" visible="true" weight="0.34504393" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.66648936" visible="true" weight="0.29027575" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" sideWeight="0.38484398" weight="0.36389083" />
       <window_info anchor="right" id="Database" order="4" weight="0.32975152" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.615156" side_tool="true" visible="true" weight="0.10152621" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.615156" side_tool="true" visible="true" weight="0.13896458" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -985,7 +983,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="完成自动连接" />
     <MESSAGE value="学习如何使用puinstaller打包资源文件" />
     <MESSAGE value="学习如何绘图" />
     <MESSAGE value="改进自动登录TVNC的代码" />
@@ -1010,7 +1007,8 @@
     <MESSAGE value="典型的提交显示界面" />
     <MESSAGE value="理解了cookies" />
     <MESSAGE value="实现浏览器增加，查询MySql数据库" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现浏览器增加，查询MySql数据库" />
+    <MESSAGE value="将数据库增删查改上传到了云服务器" />
+    <option name="LAST_COMMIT_MESSAGE" value="将数据库增删查改上传到了云服务器" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PyCode$1_1__1_.coverage" NAME="1.1 (1) Coverage Results" MODIFIED="1566913663896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt" />
@@ -1022,34 +1020,6 @@
     <SUITE FILE_PATH="coverage/PyCode$1_2.coverage" NAME="1.2 Coverage Results" MODIFIED="1566981756147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python Study/Design pattern/OberserverPattern/OberserverBase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_import_hook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python Study/Design pattern/OberserverPattern/WechatAccount.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python Study/Design pattern/OberserverPattern/WechatClientA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python Study/Design pattern/OberserverPattern/WechatClientB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1291,20 +1261,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web/MySqOrm/Settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/MySqOrm/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/MySqOrm/Settings.py" />
+    <entry file="file://$PROJECT_DIR$/Web/MySqOrm/models.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pymysql/cursors.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -1312,41 +1270,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Web/MySqOrm/TestORM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Web/TestForDisk/config.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
+        <state relative-caret-position="350">
           <caret line="14" selection-start-line="14" selection-end-line="32" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web/MySqOrm/Manager.py">
+    <entry file="file://$PROJECT_DIR$/Web/TestForDisk/Manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        <state relative-caret-position="425">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding>
             <element signature="e#127#166#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web/TestForDisk/login.py">
+    <entry file="file://$PROJECT_DIR$/Web/MySqOrm/Manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/TestForDisk/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/MySqOrm/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="425">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="e#127#166#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1357,37 +1311,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web/TestForDisk/Manager.py">
+    <entry file="file://$PROJECT_DIR$/Web/TestForDisk/1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="175">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/TestForDisk/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python Study/Excel/ExcelWrite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python Study/JSON/1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="286" column="26" selection-start-line="286" selection-start-column="17" selection-end-line="286" selection-end-column="26" />
           <folding>
-            <element signature="e#127#166#0" expanded="true" />
+            <element signature="e#92#1785#0" />
+            <element signature="e#1797#3087#0" />
+            <element signature="e#3099#4782#0" />
+            <element signature="e#4794#6470#0" />
+            <element signature="e#6482#8163#0" />
+            <element signature="e#8175#9852#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web/MySqOrm/TestORM.py">
+    <entry file="file://$PROJECT_DIR$/Python Study/JSON/GetInfoFromJson.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="51" column="10" lean-forward="true" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+        <state relative-caret-position="150">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Web/MySqOrm/templates/query.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="75">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Web/MySqOrm/templates/add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        <state relative-caret-position="-97">
+          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/MySqOrm/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/MySqOrm/templates/MyCss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
         </state>
       </provider>
     </entry>
