@@ -53,20 +53,20 @@ def Add():
     blog = Blog(title = '', content = '')
     if (request.method == 'POST'):
         # 新增
-        if((request.form['Title']!=None ) and request.form['Content']!=None):
+        if((request.form['Title']!='' ) and request.form['Content']!=''):
             blog = Blog(title=request.form['Title'], content=request.form['Content'])
             db.session.add(blog)
             db.session.commit()
-            return render_template('add.html')
     else:
         # 新增
-        if ((request.args.get('Title') != None) and request.args.get('Content') != None):
+        if ((request.args.get('Title') != '') and request.args.get('Content') != ''):
             blog = Blog(title=request.args.get('Title'), content=request.args.get('Content'))
             db.session.add(blog)
             db.session.commit()
-            return render_template('add.html')
-
-    return '添加失败，请检查Title或者Content是否为空'
+    if(blog.title!='' or blog.content!=''):
+        return render_template('result.html',strRes='添加%s : %s成功'%(blog.title,blog.content))
+    else:
+        return render_template('result.html', strRes='添加记录失败')
 
 # if __name__ == '__main__':
 #     app.run(debug=True)

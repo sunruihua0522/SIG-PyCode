@@ -1,0 +1,82 @@
+/*@charset "utf-8";*/
+/*!* CSS Document *!*/
+/*.tabtop13 {*/
+/*    margin-top: 13px;*/
+/*}*/
+/*.tabtop13 td{*/
+/*    background-color:#ffffff;*/
+/*    height:25px;*/
+/*    line-height:150%;*/
+/*}*/
+/*.font-center{ text-align:center}*/
+/*.btbg{background:#e9faff !important;}*/
+/*.btbg1{background:#f2fbfe !important;}*/
+/*.btbg2{background:#f3f3f3 !important;}*/
+/*.biaoti{*/
+/*    font-family: "Arial Black";*/
+/*    font-size: 26px;*/
+/*    font-weight: bold;*/
+/*    border-bottom:1px dashed #CCCCCC;*/
+/*    color: #255e95;*/
+/*}*/
+/*.titfont {*/
+
+/*    font-family: Arial;*/
+/*    font-size: 16px;*/
+/*    font-weight: bold;*/
+/*    color: #255e95;*/
+/*    !*background: url(../images/ico3.gif) no-repeat 15px center;*!*/
+/*    background-color:#e9faff;*/
+/*}*/
+/*.tabtxt2 {*/
+/*    font-family: "Arial Black";*/
+/*    font-size: 14px;*/
+/*    font-weight: bold;*/
+/*    text-align: right;*/
+/*    padding-right: 10px;*/
+/*    color:#327cd1;*/
+/*}*/
+/*.tabtxt3 {*/
+/*    font-family: "Arial Black";*/
+/*    font-size: 14px;*/
+/*    padding-left: 15px;*/
+/*    color: #000;*/
+/*    margin-top: 10px;*/
+/*    margin-bottom: 10px;*/
+/*    line-height: 20px;*/
+/*}*/
+
+/*html,body{*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*}*/
+/*table.excel{*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background: darkslategray;*/
+
+/*}*/
+/*td.td{*/
+/*    background: lightskyblue;*/
+/*    text-align: center;*/
+/*}*/
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+table.excel{
+    width: 100%;
+    height: 100%;
+    background: blue;
+
+}
+td.td{
+    background: white;
+    text-align: center;
+}
+td.tdh{
+    background: lightslategray;
+    text-align: center;
+    color: white;
+}

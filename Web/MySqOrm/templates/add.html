@@ -2,38 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <title>Add</title>
     <link rel="stylesheet" type="text/css" href="MyCss.css"></link>
 </head>
 <body>
-    <div class="div_head"> 信息录入查询系统</div>
-    <div class="div_content">
-        <form action="http://122.51.200.62:5000/Add/" method="post">
-            <table>
-                <tr>
-                    <td class="td_title">Title:</td>
-                    <td><input class="input_title" placeholder="请输入标题" type="text" name="Title"></td>
-                </tr>
-                <tr>
-                    <td align="top" class="td_content">Content:</td>
-                    <td><textarea class="input_content" draggable="false" placeholder="请输入内容" type="text" name="Content"></textarea></td>
-                </tr>
-                <tr>
-                    <td/>
-                    <td align="left">
-                        <input class="add" type="submit" value="提交">
-                    </td>
-                </tr>
-            </table>
-        </form>
-        <form action="http://122.51.200.62:5000/Query/" method="post">
-            <p><input class="query" type="submit" value="查看记录"></p>
-        </form>
+    <table class="root">
+        <tr>
+            <td class="tdheader">
+                信息查询系统
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form class="form">
+                    <table class="subtable">
+                        <tr>
+                            <td class="side top bgw">标题:</td>
+                            <td class="tdtitle1"><input type="text" class="texttitle" placeholder="请输入标题"></td>
+                        </tr>
+                        <tr>
+                            <td class="side bgw paddingtop">
+                                <table style="height: 100%;width: 100%;">
+                                    <tr>
+                                        <td style="height: 30px;"><div class="margintop">内容:</div></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div><input class="add" type="submit" value="提交" formaction="http://122.51.200.62:5000/Add/" formmethod="post"></div>
+                                            <div><input class="query margintop" type="submit" value="查询" formaction="http://122.51.200.62:5000/Query/" formmethod="post"></div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td class="tdcontent1"><textarea class="textcontent" placeholder="请输入内容"></textarea></td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
 
-    </div>
+        <tr>
+            <td class="footer">深圳市赚他一个有限责任公司</td>
+        </tr>
+    </table>
 
-    <div class="div_footer">
-        深圳市赚他一个亿有限责任公司
-    </div>
+
+<!--    <div class="div_head"> 信息录入查询系统</div>-->
+<!--    <div class="div_content">-->
+<!--        <form>-->
+<!--            <table>-->
+<!--                <tr>-->
+<!--                    <td><input class="input_title" placeholder="请输入标题" type="text" name="Title"></td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td><textarea class="input_content" draggable="false" placeholder="请输入内容" type="text" name="Content"></textarea></td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td align="left">-->
+<!--                        <input class="add" type="submit" value="提交" formaction="http://122.51.200.62:5000/Add/" formmethod="post">-->
+<!--                        <input class="add" type="submit" value="查看记录" formaction="http://122.51.200.62:5000/Query/" formmethod="post"/>-->
+<!--                    </td>-->
+<!--                </tr>-->
+<!--            </table>-->
+<!--        </form>-->
+
+<!--    </div>-->
+
+<!--    <div class="div_footer">-->
+<!--        深圳市赚他一个亿有限责任公司-->
+<!--    </div>-->
+
 </body>
 </html>
