@@ -20,6 +20,11 @@ class Blog(db.Model):
 
 db.create_all()
 
+@app.route('/',methods=['POST','GET'])
+def index():
+    return 'Hello'
+    return render_template('add.html')
+
 
 @app.route('/Query/',methods=['POST','GET'])
 def Query():
@@ -43,8 +48,8 @@ def Query():
     # db.session.commit()
 
     res = Blog.query.all()
-    for r in res:
-        print('%s\t\t%s\r\n'%(r.title,r.content))
+    # for r in res:
+    #     print('%s\t\t%s\r\n'%(r.title,r.content))
     return render_template('query.html',result = res)
 
 

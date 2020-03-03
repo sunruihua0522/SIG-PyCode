@@ -1,5 +1,4 @@
 DEBUG = True
-
 DIALECT = 'mysql'
 DRIVER='pymysql'
 USERNAME = 'root'

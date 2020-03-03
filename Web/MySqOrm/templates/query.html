@@ -3,32 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Result</title>
-    <link rel="stylesheet" type="text/css" href="CSS1.css"></link>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='CSS1.css')}}"></link>
 </head>
 <body>
     <table class="excel">
         <tr>
-            <td class="td" >标题</td>
-            <td class="td" >内容</td>
+            <td class="tdh" >标题</td>
+            <td class="tdh" >内容</td>
         </tr>
+        {% for m in result%}
         <tr>
-            <td class="td" >标题</td>
-            <td class="td" >内容</td>
+            <td class="td" >{{m.title}}</td>
+            <td class="td" >{{m.content}}</td>
         </tr>
-        <tr>
-            <td class="td" >标题</td>
-            <td class="td" >内容</td>
-        </tr>
-        <tr>
-            <td class="td" >标题</td>
-            <td class="td" >内容</td>
-        </tr>
-<!--        {% for m in result%}-->
-<!--        <tr>-->
-<!--            <td class="td" >{{m.title}}</td>-->
-<!--            <td class="td" >{{m.content}}</td>-->
-<!--        </tr>-->
-<!--        {% endfor %}-->
+        {% endfor %}
     </table>
 
 </body>

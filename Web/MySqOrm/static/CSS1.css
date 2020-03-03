@@ -68,7 +68,7 @@ html,body{
 table.excel{
     width: 100%;
     height: 100%;
-    background: blue;
+    background: lightskyblue;
 
 }
 td.td{
@@ -79,4 +79,6 @@ td.tdh{
     background: lightslategray;
     text-align: center;
     color: white;
+    height: 50px;
+    font-size: 30px;
 }
