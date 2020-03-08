@@ -3,7 +3,7 @@ import cv2
 import sys
 
 sys.path.append('./CameraModule')
-from VirtualCamera import VirtualCamera
+from StreamCamera import StreamCamera
 
 
 app = Flask(__name__)
@@ -26,7 +26,7 @@ def gen(camera):
 
 @app.route('/video_feed')  # 这个地址返回视频流响应
 def video_feed():
-    return Response(gen(VirtualCamera()),
+    return Response(gen(StreamCamera()),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
 
