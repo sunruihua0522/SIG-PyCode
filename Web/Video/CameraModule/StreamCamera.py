@@ -13,4 +13,7 @@ class StreamCamera(CameraBase):
         success, image = self.video.read()
         # 因为opencv读取的图片并非jpeg格式，因此要用motion JPEG模式需要先将图片转码成jpg格式图片
         ret, jpeg = cv2.imencode('.jpg', image)
-        return jpeg.tobytes()
+        if(ret):
+            return jpeg.tobytes()
+        else:
+            pass

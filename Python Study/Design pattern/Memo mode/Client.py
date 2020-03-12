@@ -21,4 +21,8 @@ if __name__=='__main__':
     UnDo(c)
     UnDo(c)
     UnDo(c)
+    UnDo(c)
+    UnDo(c)
+    UnDo(c)
+    UnDo(c)
     pass

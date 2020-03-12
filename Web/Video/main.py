@@ -1,13 +1,8 @@
 from flask import Flask, render_template, Response
-import cv2
 import sys
-
 sys.path.append('./CameraModule')
 from StreamCamera import StreamCamera
-
-
 app = Flask(__name__)
-
 
 @app.route('/')  # 主页
 def index():
@@ -18,11 +13,13 @@ def index():
 
 def gen(camera):
     while True:
-        frame = camera.get_frame()
-        # 使用generator函数输出视频流， 每次请求输出的content类型是image/jpeg
-        yield (b'--frame\r\n'
-               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
-
+        try:
+            frame = camera.get_frame()
+            # 使用generator函数输出视频流， 每次请求输出的content类型是image/jpeg
+            yield (b'--frame\r\n'
+                   b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
+        except:
+            pass
 
 @app.route('/video_feed')  # 这个地址返回视频流响应
 def video_feed():
@@ -30,5 +27,5 @@ def video_feed():
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0',debug=True,port = 5000)
+# if __name__ == '__main__':
+#     app.run(host='0.0.0.0',debug=True)
