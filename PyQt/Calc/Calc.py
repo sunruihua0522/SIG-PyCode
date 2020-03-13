@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import QMessageBox
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow
 class MyGui(QMainWindow, Ui_MainWindow):
-    def __init__(self, parent=None):
+    def __init__(self, parent):
         super(MyGui,self).__init__(parent)
         self.setupUi(self)
         self.pushButton_calc.pressed.connect(self.OnPress)
