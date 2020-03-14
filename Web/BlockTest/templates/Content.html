@@ -1,3 +1,10 @@
 {% extends "Footer.html"%}
 
-{%block body%} <h1>Body from content</h1> {%endblock%}
+{%block body%}
+<p>参数可以在网页中直接传递</p>
+{% for n in Names%}
+<li>{{n}}</li>
+{%endfor%}
+
+
+{%endblock%}
