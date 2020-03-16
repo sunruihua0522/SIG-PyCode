@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>多用户聊天无昵称</title>
+</head>
+<body>
+<div id="chat_room">
+    <p>请输入聊天内容：<input type="text" id="msg">
+        <button id="send" onclick="send()">发送</button>
+    </p>
+    <div id="chat_content"></div>
+</div>
+</body>
+<script type="application/javascript">
+    var ws = new WebSocket('ws://127.0.0.1:8888/');
+    ws.onmessage = function (MessageEvent) {
+        console.log(MessageEvent.data);
+        var time=new Date();
+        var t= time.toLocaleString();
+        var p=document.createElement("p");
+        p.innerText="("+t+")"+MessageEvent.data;
+        document.getElementById('chat_content').appendChild(p);
+    };
+
+    function send() {
+        var msg = document.getElementById('msg').value;
+        ws.send(msg);
+    }
+</script>
+</html>
