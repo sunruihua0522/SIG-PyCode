@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="178c578c-f32f-425a-bf25-634f16ad8bf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PyQt/LearnWithYoutube/GridLayout/GridLayout.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PyQt/LearnWithYoutube/GridLayout/QHBox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyQt/LearnWithYoutube/QDockWidget/QDockWidget.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,24 +28,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PyQt/LearnWithYoutube/ButtonGroup/ButtonGroup.py">
+        <entry file="file://$PROJECT_DIR$/PyQt/LearnWithYoutube/GridLayout/GridLayout.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#0#94#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="126">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PyQt/LearnWithYoutube/GridLayout/GridLayout.py">
+        <entry file="file://$PROJECT_DIR$/PyQt/LearnWithYoutube/QDockWidget/QDockWidget.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="168">
+              <caret line="41" column="60" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
               <folding>
-                <element signature="e#0#65#0" expanded="true" />
+                <element signature="e#0#105#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PyQt/LearnWithYoutube/GridLayout/QHBox.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="798">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="e#0#114#0" expanded="true" />
               </folding>
@@ -191,7 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Web/MySqOrm/TestORM.py" />
         <option value="$PROJECT_DIR$/Web/MySqOrm/config.ini" />
         <option value="$PROJECT_DIR$/Web/TestWuXia/WuXIa.py" />
         <option value="$PROJECT_DIR$/Web/MySqOrm/templates/result.html" />
@@ -242,6 +237,7 @@
         <option value="$PROJECT_DIR$/PyQt/LearnWithYoutube/ButtonGroup/ButtonGroup.py" />
         <option value="$PROJECT_DIR$/PyQt/LearnWithYoutube/GridLayout/QHBox.py" />
         <option value="$PROJECT_DIR$/PyQt/LearnWithYoutube/GridLayout/GridLayout.py" />
+        <option value="$PROJECT_DIR$/PyQt/LearnWithYoutube/QDockWidget/QDockWidget.py" />
       </list>
     </option>
   </component>
@@ -259,6 +255,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -282,13 +279,12 @@
               <item name="PyCode" type="462c0819:PsiDirectoryNode" />
               <item name="PyQt" type="462c0819:PsiDirectoryNode" />
               <item name="LearnWithYoutube" type="462c0819:PsiDirectoryNode" />
-              <item name="GridLayout" type="462c0819:PsiDirectoryNode" />
+              <item name="QDockWidget" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -328,7 +324,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.QHBox">
+  <component name="RunManager" selected="Python.QDockWidget">
     <configuration name="ButtonGroup" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -355,6 +351,9 @@
       <module name="PyCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQt/LearnWithYoutube/GridLayout" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -370,10 +369,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="QDockWidget" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PyCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQt/LearnWithYoutube/QDockWidget" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt/LearnWithYoutube/QDockWidget/QDockWidget.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="QHBox" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQt/LearnWithYoutube/GridLayout" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -433,35 +454,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (5)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PyCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web/TestLongConnectionWithServer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Web/TestLongConnectionWithServer/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.QDockWidget" />
         <item itemvalue="Python.QHBox" />
         <item itemvalue="Python.GridLayout" />
         <item itemvalue="Python.ButtonGroup" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -623,14 +622,9 @@
       <workItem from="1584358488775" duration="5045000" />
       <workItem from="1584404036994" duration="4625000" />
       <workItem from="1584452931268" duration="1271000" />
-      <workItem from="1584538307544" duration="1491000" />
-    </task>
-    <task id="LOCAL-00011" summary="正在测试登录github">
-      <created>1569344298815</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1569344298815</updated>
+      <workItem from="1584538307544" duration="1675000" />
+      <workItem from="1584671008825" duration="1143000" />
+      <workItem from="1584713038071" duration="2830000" />
     </task>
     <task id="LOCAL-00012" summary="登录Github成功">
       <created>1569367960704</created>
@@ -968,11 +962,18 @@
       <option name="project" value="LOCAL" />
       <updated>1584452189082</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="测试了GridLayout和弹簧的使用方法，以及处理了QtMainWindow无法显示控件的原因，因为QtmainWindow需要设置CenterWidget然后CenterWidget就像是QtDialog一样了">
+      <created>1584539962067</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1584539962067</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="581400000" />
+    <option name="totallyTimeSpent" value="585557000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -987,7 +988,7 @@
     <frame x="-8" y="-8" width="1577" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18014464" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18408942" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1002,7 +1003,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.33351064" side_tool="true" weight="0.35167205" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.6119403" weight="0.37344912" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.66648936" visible="true" weight="0.32258064" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.66648936" visible="true" weight="0.34119105" />
       <window_info anchor="bottom" id="File Transfer" order="13" weight="0.3287841" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.27047145" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1010,7 +1011,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" sideWeight="0.38484398" weight="0.36389083" />
       <window_info anchor="right" id="Database" order="4" weight="0.32975152" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.615156" side_tool="true" visible="true" weight="0.31886917" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.615156" side_tool="true" visible="true" weight="0.18277448" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1027,7 +1028,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="重构了Filler，后面可以自动添加新的Filler" />
     <MESSAGE value="重构基本完成" />
     <MESSAGE value="合理的重构代码" />
     <MESSAGE value="重新命名类名" />
@@ -1052,7 +1052,8 @@
     <MESSAGE value="练习了GridLayout布局" />
     <MESSAGE value="学习使用了QButtonGroup的使用&#10;注意QButtonGroup再信号连接的时候要有[int]" />
     <MESSAGE value="backup" />
-    <option name="LAST_COMMIT_MESSAGE" value="backup" />
+    <MESSAGE value="测试了GridLayout和弹簧的使用方法，以及处理了QtMainWindow无法显示控件的原因，因为QtmainWindow需要设置CenterWidget然后CenterWidget就像是QtDialog一样了" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试了GridLayout和弹簧的使用方法，以及处理了QtMainWindow无法显示控件的原因，因为QtmainWindow需要设置CenterWidget然后CenterWidget就像是QtDialog一样了" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PyCode$1_1__1_.coverage" NAME="1.1 (1) Coverage Results" MODIFIED="1566913663896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt" />
@@ -1064,16 +1065,6 @@
     <SUITE FILE_PATH="coverage/PyCode$1_2.coverage" NAME="1.2 Coverage Results" MODIFIED="1566981756147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Web/Video/CameraModule/RealCamera.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Web/MySqOrm/Manager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -1351,6 +1342,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PyQt/LearnWithYoutube/ButtonGroup/ButtonGroup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyQt/LearnWithYoutube/GridLayout/QHBox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#0#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PyQt/LearnWithYoutube/CreatingWindows/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1412,32 +1423,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PyQt/LearnWithYoutube/ButtonGroup/ButtonGroup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#94#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PyQt/LearnWithYoutube/GridLayout/QHBox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#0#114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PyQt/LearnWithYoutube/GridLayout/GridLayout.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="126">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyQt/LearnWithYoutube/QDockWidget/QDockWidget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="41" column="60" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
           <folding>
-            <element signature="e#0#65#0" expanded="true" />
+            <element signature="e#0#105#0" expanded="true" />
           </folding>
         </state>
       </provider>
