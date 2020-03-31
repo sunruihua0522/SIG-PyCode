@@ -19,7 +19,7 @@ class MyWindow(QWidget):
     def initGui(self):
         # init window
         self.setWindowTitle("Look up contact")
-        self.setGeometry(100,200,800,600)
+        self.setGeometry(100,200,1200,600)
 
         left = QWidget()
         left.setMaximumWidth(300)
@@ -45,6 +45,7 @@ class MyWindow(QWidget):
 
         # Left control
         buttonLookup = QPushButton('Check')
+        # buttonLookup.setFlat(True)
         buttonLookup.clicked.connect(self.onCheckOutclick)
         buttonLookup.setStyleSheet("color:white;background-color:#C8C8C8C8;font-size:25px")
         vbox.addWidget(buttonLookup)
@@ -57,6 +58,7 @@ class MyWindow(QWidget):
 
         #bottom control
         self.listView = QListView()
+
         vbox = QVBoxLayout()
         vbox.addWidget(self.listView)
         bottom.setLayout(vbox)
@@ -81,9 +83,6 @@ class MyWindow(QWidget):
         model.setStringList(l)
         self.listView.setModel(model)
         session.close()
-
-
-
 
 
 if __name__ == '__main__':
