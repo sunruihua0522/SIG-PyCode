@@ -6,7 +6,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import sessionmaker
 from PyQt5.QtWidgets import QApplication, QWidget,QLabel, QPushButton,\
-    QTextEdit,QLineEdit,QGridLayout,QVBoxLayout,QHBoxLayout
+    QTextEdit,QLineEdit,QGridLayout,QVBoxLayout,QHBoxLayout, QListView
 from PyQt5 import QtGui,QtCore
 
 
@@ -22,6 +22,7 @@ class MyWindow(QWidget):
         self.setGeometry(100,200,800,600)
 
         left = QWidget()
+        left.setMaximumWidth(300)
         left.setStyleSheet("background-color:black")
 
 
@@ -47,8 +48,19 @@ class MyWindow(QWidget):
         buttonLookup.clicked.connect(self.onCheckOutclick)
         buttonLookup.setStyleSheet("color:white;background-color:#C8C8C8C8;font-size:25px")
         vbox.addWidget(buttonLookup)
+        self.textbox = QLineEdit()
+        self.textbox.setStyleSheet("background-color:white;font-size:20px")
+        vbox.addWidget(self.textbox)
         vbox.addStretch()
         left.setLayout(vbox)
+
+
+        #bottom control
+        self.listView = QListView()
+        vbox = QVBoxLayout()
+        vbox.addWidget(self.listView)
+        bottom.setLayout(vbox)
+
 
         self.setLayout(gridBox)
 
@@ -58,11 +70,16 @@ class MyWindow(QWidget):
         base = SigContact()
         base.metadata.create_all(engine)
         session = sessionmaker(bind=engine)()
-
         # user = session.query(SigContact).filter(SigContact.id == '5').one()
-        user = session.query(SigContact).filter(SigContact.firstName.like('%ruihua%')).one()
-        print(user.mobile, user.email, user.businessPhone)
+        users = session.query(SigContact).filter(SigContact.firstName.like('%'+self.textbox.text()+'%'))
 
+        model = QtCore.QStringListModel()
+        l = []
+        for user in users:
+            l.append('%s\t%s\t%s\t'%(user.mobile, user.email, user.businessPhone))
+
+        model.setStringList(l)
+        self.listView.setModel(model)
         session.close()
 
 
